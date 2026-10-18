@@ -1,0 +1,43 @@
+{
+  "schemaVersion": "da.theming.requirements.v1",
+  "status": "required; implementation audit and alternate-theme validation pending",
+  "decisionOwner": "Dana Randall",
+  "decisionDate": "2026-10-18",
+  "goal": "A human or agent changes a brand theme once and all linked components inherit the new aesthetic.",
+  "architecture": [
+    "brand primitives and theme definitions",
+    "semantic aliases expressing purpose",
+    "component aliases only where a component needs a distinct role",
+    "Figma variable bindings, shared text/paint/effect styles and code tokens",
+    "instances inherit from masters; no detached brand overrides"
+  ],
+  "themeable": [
+    "color palettes and semantic color roles",
+    "font families, weights, sizes, line heights and tracking",
+    "corner radii",
+    "gradient stops, positions and direction",
+    "borders and stroke widths",
+    "shadows and elevation",
+    "spacing and density",
+    "icon styling and asset slots",
+    "motion duration and easing subject to preference constraints"
+  ],
+  "rules": [
+    "Do not hard-code themeable values in component masters or production components.",
+    "Do not encode a brand-specific color name in a semantic role.",
+    "Use native Figma variables where supported; compose gradients, typography and effects with shared styles and token mappings where a field cannot bind directly.",
+    "Do not claim automatic Git/Figma synchronization; record the supported update mechanism and unsupported fields.",
+    "Preserve accessibility behavior, semantics, keyboard operation and reduced-motion alternatives across themes.",
+    "Treat DesignA11y as the reference theme, not required identity for downstream users.",
+    "Keep licensed fonts and third-party brand assets out of distributable theme packages unless redistribution is permitted."
+  ],
+  "acceptance": [
+    "Create a visibly different sample theme with new colors, font, radii, gradient and shadows.",
+    "Apply it at the theme boundary without editing individual component masters or instances.",
+    "Inspect representative actions, fields, navigation, cards, overlays and responsive compositions.",
+    "Audit literals, detached instances, local style overrides and unresolved aliases; report exceptions.",
+    "Verify light/dark mappings, contrast, focus visibility, enlarged text, content extremes, reflow and motion preferences.",
+    "Compare resolved Figma and code values; publish evidence and known unsupported mappings."
+  ],
+  "releaseGate": "Do not claim fully themeable until the alternate-theme test and binding coverage audit are complete."
+}
