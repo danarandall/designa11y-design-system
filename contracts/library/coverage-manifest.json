@@ -1,0 +1,3133 @@
+{
+  "schemaVersion": "da.library.coverage.v1",
+  "owner": "Dana Randall",
+  "updated": "2026-10-18",
+  "target": "Prime 6 category breadth plus native Specs, accessibility contracts, interface microinteractions and machine guidance",
+  "referencePolicy": "Prime category inventory only. No Prime assets, source or layouts copied.",
+  "figmaFileKey": "YnhNUlEByax6x6ZY1YQL9e",
+  "status": "active-build; native design drafts; not runtime certified",
+  "referenceCategories": [
+    "Colors",
+    "Typography",
+    "Shadows and blurs",
+    "Grids",
+    "Icons",
+    "Flags/locales",
+    "Logos and media",
+    "Payment methods",
+    "Device templates",
+    "Alerts",
+    "Avatars",
+    "Badges",
+    "Buttons",
+    "Button groups",
+    "Breadcrumbs",
+    "Cards",
+    "Content",
+    "Date picker",
+    "Footer",
+    "Inputs and dropdowns",
+    "List items",
+    "Modals",
+    "Menus",
+    "Navigation headers",
+    "Pagination",
+    "Pricing",
+    "Progress",
+    "Ratings and reviews",
+    "Sidebars",
+    "Sliders",
+    "Tables",
+    "Tabs",
+    "Tags",
+    "Toggles",
+    "Tooltips"
+  ],
+  "families": [
+    {
+      "pageId": "38:2",
+      "reviewId": "58:674",
+      "specId": "58:844",
+      "specVerified": true,
+      "components": [
+        {
+          "id": "da.forms.select",
+          "name": "Forms/Select",
+          "nodeId": "58:179",
+          "variants": 5,
+          "states": [
+            "Default",
+            "Hover",
+            "Focus",
+            "Disabled",
+            "Error"
+          ],
+          "properties": [
+            "Label",
+            "Value",
+            "Helper text"
+          ],
+          "purpose": "Select one topic from a finite list.",
+          "semantics": "Native select with associated visible label; browser popup.",
+          "keyboard": "Native select keys and typeahead; Tab exits.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.forms.combobox",
+          "name": "Forms/Combobox",
+          "nodeId": "58:232",
+          "variants": 6,
+          "states": [
+            "Default",
+            "Focus",
+            "Expanded",
+            "Empty",
+            "Error",
+            "Disabled"
+          ],
+          "properties": [
+            "Label",
+            "Value",
+            "Helper text"
+          ],
+          "purpose": "Find a resource in a longer option set.",
+          "semantics": "Tested combobox primitive with expanded/controls/active-descendant; named listbox and options.",
+          "keyboard": "Arrows navigate, Enter selects, Escape closes; preserve editing keys.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.forms.search",
+          "name": "Forms/Search",
+          "nodeId": "58:273",
+          "variants": 4,
+          "states": [
+            "Default",
+            "Focus",
+            "Loading",
+            "Error"
+          ],
+          "properties": [
+            "Label",
+            "Value",
+            "Helper text"
+          ],
+          "purpose": "Search DesignA11y articles and resources.",
+          "semantics": "Native search input in labelled search form; result status on submit.",
+          "keyboard": "Enter submits; native editing and named clear control.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.forms.date-field",
+          "name": "Forms/DateField",
+          "nodeId": "58:306",
+          "variants": 4,
+          "states": [
+            "Default",
+            "Focus",
+            "Error",
+            "Disabled"
+          ],
+          "properties": [
+            "Label",
+            "Value",
+            "Helper text"
+          ],
+          "purpose": "Enter a date with clear format and calendar alternative.",
+          "semantics": "Native date input or tested date field; associated label and format help.",
+          "keyboard": "Native editing; no blocked manual entry; named calendar trigger.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.forms.file-upload",
+          "name": "Forms/FileUpload",
+          "nodeId": "58:337",
+          "variants": 4,
+          "states": [
+            "Default",
+            "Selected",
+            "Error",
+            "Disabled"
+          ],
+          "properties": [
+            "Label"
+          ],
+          "purpose": "Attach supporting material with explicit constraints.",
+          "semantics": "Native file input with visible label; drag/drop is supplemental.",
+          "keyboard": "Keyboard file chooser; separately named remove action; selection status.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.forms.slider",
+          "name": "Forms/Slider",
+          "nodeId": "58:363",
+          "variants": 3,
+          "states": [
+            "Default",
+            "Focus",
+            "Disabled"
+          ],
+          "properties": [
+            "Label",
+            "Value text"
+          ],
+          "purpose": "Adjust a bounded value with numeric entry available.",
+          "semantics": "Native range input or tested slider; name, min/max/value and value text; numeric alternative.",
+          "keyboard": "Arrows step, Home/End reach bounds.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.forms.stepper",
+          "name": "Forms/NumberStepper",
+          "nodeId": "58:393",
+          "variants": 4,
+          "states": [
+            "Default",
+            "Focus",
+            "Disabled",
+            "Error"
+          ],
+          "properties": [
+            "Label",
+            "Value"
+          ],
+          "purpose": "Enter or step a bounded number without dragging.",
+          "semantics": "Native number input and named decrement/increment buttons; bounds and errors.",
+          "keyboard": "Native editing; ArrowUp/Down step; buttons Enter/Space.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.forms.date-picker",
+          "name": "Forms/DatePicker",
+          "nodeId": "58:673",
+          "variants": 3,
+          "states": [
+            "Default",
+            "DateSelected",
+            "RangeSelected"
+          ],
+          "properties": [
+            "Month label"
+          ],
+          "purpose": "Choose a date or range, retaining manual entry.",
+          "semantics": "Tested date picker primitive; named dialog/grid, localized dates and week start.",
+          "keyboard": "Arrow dates; Home/End, PageUp/Down per primitive; Enter selects; Escape returns focus.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        }
+      ]
+    },
+    {
+      "pageId": "59:2",
+      "reviewId": "59:197",
+      "specId": "59:278",
+      "specVerified": true,
+      "components": [
+        {
+          "id": "da.navigation.item",
+          "name": "Navigation/Item",
+          "nodeId": "59:18",
+          "variants": 5,
+          "states": [
+            "Default",
+            "Hover",
+            "Focus",
+            "Current",
+            "Disabled"
+          ],
+          "properties": [
+            "Label"
+          ],
+          "purpose": "Reusable labelled navigation destination.",
+          "semantics": "Anchor for route changes; aria-current=page for current destination.",
+          "keyboard": "Tab to link; Enter follows; do not use arrow keys for plain navigation.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.navigation.tabs",
+          "name": "Navigation/Tabs",
+          "nodeId": "59:63",
+          "variants": 4,
+          "states": [
+            "FirstSelected",
+            "SecondSelected",
+            "Focus",
+            "Disabled"
+          ],
+          "properties": [
+            "Panel content"
+          ],
+          "purpose": "Switch between related panels in one context.",
+          "semantics": "Tested tabs primitive with tablist, tabs, selected state and labelled panels.",
+          "keyboard": "Roving tab stop; Left/Right arrows, Home/End; manual activation if content is slow.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.navigation.breadcrumbs",
+          "name": "Navigation/Breadcrumbs",
+          "nodeId": "59:68",
+          "variants": 2,
+          "states": [
+            "Default",
+            "Compact"
+          ],
+          "properties": [],
+          "purpose": "Show hierarchy and provide ancestor navigation.",
+          "semantics": "Labelled breadcrumb nav with ordered list; final item aria-current=page.",
+          "keyboard": "Only ancestor links are tab stops; compact overflow has a named control.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.navigation.pagination",
+          "name": "Navigation/Pagination",
+          "nodeId": "59:78",
+          "variants": 3,
+          "states": [
+            "FirstPage",
+            "MiddlePage",
+            "LastPage"
+          ],
+          "properties": [
+            "Summary"
+          ],
+          "purpose": "Move through bounded result pages with clear current state.",
+          "semantics": "Labelled pagination nav; links for destinations; aria-current=page; disabled previous/next not actionable.",
+          "keyboard": "Tab through available links; Enter follows. No custom arrow navigation.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.navigation.menu",
+          "name": "Navigation/Menu",
+          "nodeId": "59:103",
+          "variants": 3,
+          "states": [
+            "Default",
+            "ItemFocus",
+            "ItemDisabled"
+          ],
+          "properties": [],
+          "purpose": "Offer a short contextual action list.",
+          "semantics": "Tested menu/menuitem primitive for actions; ordinary destination lists should remain links.",
+          "keyboard": "Trigger Enter/Space opens; arrows, Home/End; Escape closes and restores trigger focus.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.navigation.header",
+          "name": "Navigation/Header",
+          "nodeId": "59:160",
+          "variants": 3,
+          "states": [
+            "Desktop",
+            "Compact",
+            "MenuOpen"
+          ],
+          "properties": [],
+          "purpose": "Consistent DesignA11y site identity, primary destinations and mobile menu.",
+          "semantics": "Header landmark, home link, labelled primary nav; compact disclosure button with expanded/controls.",
+          "keyboard": "Tab links; menu button Enter/Space; Escape closes disclosure and returns focus; no desktop menubar role.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.navigation.sidebar",
+          "name": "Navigation/Sidebar",
+          "nodeId": "59:183",
+          "variants": 3,
+          "states": [
+            "Default",
+            "SectionExpanded",
+            "Compact"
+          ],
+          "properties": [
+            "Title"
+          ],
+          "purpose": "Navigate resource and documentation sections.",
+          "semantics": "Named navigation landmark with links and optional disclosure sections; current page indicated.",
+          "keyboard": "Tab links/disclosures; Enter/Space toggles section; no tree role unless full tree pattern implemented.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.navigation.footer",
+          "name": "Navigation/Footer",
+          "nodeId": "59:196",
+          "variants": 2,
+          "states": [
+            "Desktop",
+            "Stacked"
+          ],
+          "properties": [],
+          "purpose": "Consistent secondary navigation, brand context and legal links.",
+          "semantics": "Footer landmark; separately named nav groups; descriptive link text.",
+          "keyboard": "Normal link order follows visual and document order.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated",
+          "migrationNote": "Flattened Description removed during source alignment; native tagline and separately editable labels. See current native Spec."
+        }
+      ]
+    },
+    {
+      "pageId": "60:2",
+      "reviewId": "60:150",
+      "specId": "60:231",
+      "specVerified": true,
+      "components": [
+        {
+          "id": "da.feedback.alert",
+          "name": "Feedback/Alert",
+          "nodeId": "60:19",
+          "variants": 4,
+          "states": [
+            "Information",
+            "Success",
+            "Warning",
+            "Error"
+          ],
+          "properties": [
+            "Title",
+            "Message"
+          ],
+          "purpose": "Persistent contextual feedback with explicit meaning.",
+          "semantics": "Status or alert only when dynamically appropriate; static alert panels need no live role. Severity is named in text, not color alone.",
+          "keyboard": "Text is not focusable; actions and dismiss buttons are.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.feedback.toast",
+          "name": "Feedback/Toast",
+          "nodeId": "60:31",
+          "variants": 3,
+          "states": [
+            "Information",
+            "Success",
+            "ActionRequired"
+          ],
+          "properties": [
+            "Message"
+          ],
+          "purpose": "Nonblocking outcome notification without losing task context.",
+          "semantics": "Tested notification region; polite status by default; persistent if action required; no essential timed-only content.",
+          "keyboard": "Do not steal focus; actionable notifications have discoverable controls and enough time.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.feedback.tooltip",
+          "name": "Feedback/Tooltip",
+          "nodeId": "60:36",
+          "variants": 2,
+          "states": [
+            "Above",
+            "Below"
+          ],
+          "properties": [
+            "Content"
+          ],
+          "purpose": "Supplement a clear control label with brief nonessential help.",
+          "semantics": "Tested tooltip; role=tooltip associated through describedby; no interactive content.",
+          "keyboard": "Shown on focus and hover; Escape dismisses; remains while pointer is over it; never sole accessible name.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.feedback.progress",
+          "name": "Feedback/Progress",
+          "nodeId": "60:58",
+          "variants": 4,
+          "states": [
+            "Start",
+            "InProgress",
+            "Complete",
+            "Error"
+          ],
+          "properties": [
+            "Label"
+          ],
+          "purpose": "Communicate measurable completion without animation dependence.",
+          "semantics": "Native progress with accessible label and known max/value; omit numeric value if unknown; error is textual.",
+          "keyboard": "Not focusable unless it contains an action; status announcements throttled.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.feedback.loading",
+          "name": "Feedback/Loading",
+          "nodeId": "60:66",
+          "variants": 3,
+          "states": [
+            "Inline",
+            "Block",
+            "Complete"
+          ],
+          "properties": [],
+          "purpose": "Give a stable pending-operation status and completion feedback.",
+          "semantics": "Named status; aria-busy on affected region; avoid repeated announcements.",
+          "keyboard": "Do not move focus or disable unrelated controls; cancellation if operation warrants.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.feedback.skeleton",
+          "name": "Feedback/Skeleton",
+          "nodeId": "60:76",
+          "variants": 2,
+          "states": [
+            "Card",
+            "List"
+          ],
+          "properties": [],
+          "purpose": "Reserve content geometry during loading without visual noise.",
+          "semantics": "Decorative aria-hidden skeleton; one adjacent loading status. Static by default.",
+          "keyboard": "Never focusable; no fake interactive controls.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.feedback.empty-state",
+          "name": "Feedback/EmptyState",
+          "nodeId": "60:92",
+          "variants": 3,
+          "states": [
+            "NoResults",
+            "NoSavedItems",
+            "FirstUse"
+          ],
+          "properties": [],
+          "purpose": "Explain absence of content and a useful next action.",
+          "semantics": "Heading and explanation; no live-region by default; avoid blame and decorative over-explanation.",
+          "keyboard": "Clear next action in reading order.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.feedback.error-state",
+          "name": "Feedback/ErrorState",
+          "nodeId": "60:103",
+          "variants": 2,
+          "states": [
+            "Recoverable",
+            "Unavailable"
+          ],
+          "properties": [
+            "Title",
+            "Message"
+          ],
+          "purpose": "Explain a failed task with recovery and preserved input.",
+          "semantics": "Visible heading/message; alert only for newly occurring urgent errors; accessible recovery link/button.",
+          "keyboard": "Focus remains logical; failed submit may focus error summary; never discard entered content.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.content.badge",
+          "name": "Content/Badge",
+          "nodeId": "60:112",
+          "variants": 4,
+          "states": [
+            "Neutral",
+            "New",
+            "Updated",
+            "ReviewPending"
+          ],
+          "properties": [
+            "Label"
+          ],
+          "purpose": "Compact noninteractive category or status label.",
+          "semantics": "Plain text; never rely on color; not a button.",
+          "keyboard": "Not a tab stop.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.content.tag",
+          "name": "Content/Tag",
+          "nodeId": "60:126",
+          "variants": 3,
+          "states": [
+            "Static",
+            "Removable",
+            "Selected"
+          ],
+          "properties": [
+            "Label"
+          ],
+          "purpose": "Represent a topic or chosen filter.",
+          "semantics": "Static text, link or named toggle according to use; remove button includes tag name.",
+          "keyboard": "Interactive tag Enter/Space per role; remove is a distinct named action.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.content.avatar",
+          "name": "Content/Avatar",
+          "nodeId": "60:136",
+          "variants": 3,
+          "states": [
+            "Initials",
+            "Anonymous",
+            "Group"
+          ],
+          "properties": [
+            "Name"
+          ],
+          "purpose": "Represent an author or contributor without requiring a photo.",
+          "semantics": "If adjacent name is present, decorative; otherwise meaningful name equivalent. Never infer identity from image.",
+          "keyboard": "Not focusable unless a separate profile link.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.content.rating",
+          "name": "Content/Rating",
+          "nodeId": "60:149",
+          "variants": 3,
+          "states": [
+            "ReadOnly",
+            "Interactive",
+            "Rated"
+          ],
+          "properties": [
+            "Question"
+          ],
+          "purpose": "Collect helpfulness feedback, never an accessibility conformance score.",
+          "semantics": "Read-only text summary or tested radio group with each value named; do not use icon color as sole value.",
+          "keyboard": "Radio group arrows and Space; visible labels for choices; submit if required.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        }
+      ]
+    },
+    {
+      "pageId": "61:2",
+      "reviewId": "61:184",
+      "specId": "61:272",
+      "specVerified": true,
+      "components": [
+        {
+          "id": "da.content.article-card",
+          "name": "Content/ArticleCard",
+          "nodeId": "61:33",
+          "variants": 4,
+          "states": [
+            "Default",
+            "Hover",
+            "Focus",
+            "Compact"
+          ],
+          "properties": [
+            "Category",
+            "Title",
+            "Summary",
+            "Metadata"
+          ],
+          "purpose": "Link to one editorial article with a clear title and reading context.",
+          "semantics": "Article with heading and one primary link; whole-card activation must not create duplicate tab stops. Decorative image empty alt when title gives context.",
+          "keyboard": "One primary article link; Enter follows; focus surrounds whole card.",
+          "motion": "Approved card-lift: -3px/140ms where appropriate; static reduced-motion/coarse-pointer feedback.",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.content.resource-card",
+          "name": "Content/ResourceCard",
+          "nodeId": "61:62",
+          "variants": 4,
+          "states": [
+            "Default",
+            "Hover",
+            "Focus",
+            "Download"
+          ],
+          "properties": [
+            "Type",
+            "Title",
+            "Summary"
+          ],
+          "purpose": "Present a practical toolkit, guide or downloadable resource.",
+          "semantics": "Heading and descriptive link; download format/size explicit; avoid nested interactive card targets.",
+          "keyboard": "Separate actions only when necessary; clear order and focus.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.content.featured-story",
+          "name": "Content/FeaturedStory",
+          "nodeId": "61:79",
+          "variants": 2,
+          "states": [
+            "Wide",
+            "Stacked"
+          ],
+          "properties": [
+            "Label",
+            "Title",
+            "Summary"
+          ],
+          "purpose": "Feature a single priority story without repeating it in the next article list.",
+          "semantics": "Section with heading, summary and primary link; image purpose explicitly assigned.",
+          "keyboard": "Logical heading/link order; no duplicate links to same story within card.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.content.author",
+          "name": "Content/AuthorProfile",
+          "nodeId": "61:87",
+          "variants": 2,
+          "states": [
+            "Compact",
+            "Expanded"
+          ],
+          "properties": [
+            "Name",
+            "Role",
+            "Biography"
+          ],
+          "purpose": "Identify article authors and provide relevant context.",
+          "semantics": "Visible author name; adjacent avatar decorative; profile link has descriptive name.",
+          "keyboard": "Only profile/social links are tab stops.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.content.metadata",
+          "name": "Content/Metadata",
+          "nodeId": "61:92",
+          "variants": 2,
+          "states": [
+            "Article",
+            "Resource"
+          ],
+          "properties": [
+            "Metadata"
+          ],
+          "purpose": "Present date, reading time, format or revision consistently.",
+          "semantics": "Text and native time element with machine-readable datetime; format information belongs in link context.",
+          "keyboard": "Not focusable unless containing a meaningful category link.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.content.accordion",
+          "name": "Content/Accordion",
+          "nodeId": "61:118",
+          "variants": 4,
+          "states": [
+            "Collapsed",
+            "Expanded",
+            "Focus",
+            "Disabled"
+          ],
+          "properties": [
+            "Label",
+            "Content"
+          ],
+          "purpose": "Reveal optional supporting detail without hiding essential task instructions.",
+          "semantics": "Native details/summary or tested disclosure; button expanded/controls; heading level follows context.",
+          "keyboard": "Enter/Space toggles; Tab moves normally; no mandatory arrow model.",
+          "motion": "da.motion.disclosure; 160ms proposed measured-height transition, static alternative.",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.content.list-item",
+          "name": "Content/ListItem",
+          "nodeId": "61:136",
+          "variants": 4,
+          "states": [
+            "Default",
+            "Hover",
+            "Focus",
+            "Selected"
+          ],
+          "properties": [
+            "Title",
+            "Description"
+          ],
+          "purpose": "Present one resource, task or destination in a scan-friendly list.",
+          "semantics": "List item containing a link, button or checkbox according to intent; avoid ambiguous clickable containers.",
+          "keyboard": "Native link/button/selection behavior, no custom listbox unless actual selection widget.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.content.quote",
+          "name": "Content/Quote",
+          "nodeId": "61:143",
+          "variants": 2,
+          "states": [
+            "Quote",
+            "PullQuote"
+          ],
+          "properties": [
+            "Quote",
+            "Attribution"
+          ],
+          "purpose": "Separate quoted editorial content and attribution.",
+          "semantics": "Blockquote with citation; no invented endorsement or testimonial.",
+          "keyboard": "Static text; citation link only if provided.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.content.pricing",
+          "name": "Content/PricingCard",
+          "nodeId": "61:164",
+          "variants": 3,
+          "states": [
+            "Standard",
+            "Featured",
+            "Unavailable"
+          ],
+          "properties": [
+            "Plan name",
+            "Price",
+            "Terms",
+            "Features"
+          ],
+          "purpose": "Provide an optional access-plan pattern for future offerings, not a claim of a current paid product.",
+          "semantics": "Heading, price and billing terms as text; descriptive action; no hidden recurring cost.",
+          "keyboard": "Native action/link; clear unavailable state.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.content.review",
+          "name": "Content/Review",
+          "nodeId": "61:172",
+          "variants": 2,
+          "states": [
+            "Summary",
+            "Detailed"
+          ],
+          "properties": [
+            "Rating",
+            "Review",
+            "Attribution"
+          ],
+          "purpose": "Present verified resource feedback without inventing testimonials.",
+          "semantics": "Review text, rating meaning and attribution; sample content must be replaced by verified feedback.",
+          "keyboard": "Only helpfulness/report actions are interactive.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.content.article-body",
+          "name": "Content/ArticleBody",
+          "nodeId": "61:183",
+          "variants": 2,
+          "states": [
+            "Default",
+            "Callout"
+          ],
+          "properties": [
+            "Heading",
+            "Body",
+            "Callout"
+          ],
+          "purpose": "Readable long-form editorial structure with headings and linked resources.",
+          "semantics": "Semantic article headings, paragraphs and lists; heading hierarchy follows page context.",
+          "keyboard": "Links in document order; no focusable body wrapper.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        }
+      ]
+    },
+    {
+      "pageId": "34:2",
+      "reviewId": null,
+      "specId": "62:152",
+      "specVerified": true,
+      "components": [
+        {
+          "id": "da.actions.button-secondary",
+          "name": "Actions/ButtonSecondary",
+          "nodeId": "62:53",
+          "variants": 12,
+          "states": [
+            "Regular/Default",
+            "Regular/Hover",
+            "Regular/Pressed",
+            "Regular/Focus",
+            "Regular/Disabled",
+            "Regular/Loading",
+            "Compact/Default",
+            "Compact/Hover",
+            "Compact/Pressed",
+            "Compact/Focus",
+            "Compact/Disabled",
+            "Compact/Loading"
+          ],
+          "purpose": "Secondary action hierarchy",
+          "semantics": "Native button; explicit type and accessible action label",
+          "keyboard": "Enter/Space; focus static; loading preserves context",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.actions.button-tertiary",
+          "name": "Actions/ButtonTertiary",
+          "nodeId": "62:86",
+          "variants": 12,
+          "states": [
+            "Regular/Default",
+            "Regular/Hover",
+            "Regular/Pressed",
+            "Regular/Focus",
+            "Regular/Disabled",
+            "Regular/Loading",
+            "Compact/Default",
+            "Compact/Hover",
+            "Compact/Pressed",
+            "Compact/Focus",
+            "Compact/Disabled",
+            "Compact/Loading"
+          ],
+          "purpose": "Tertiary action hierarchy",
+          "semantics": "Native button; explicit type and accessible action label",
+          "keyboard": "Enter/Space; focus static; loading preserves context",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.actions.button-destructive",
+          "name": "Actions/ButtonDestructive",
+          "nodeId": "62:119",
+          "variants": 12,
+          "states": [
+            "Regular/Default",
+            "Regular/Hover",
+            "Regular/Pressed",
+            "Regular/Focus",
+            "Regular/Disabled",
+            "Regular/Loading",
+            "Compact/Default",
+            "Compact/Hover",
+            "Compact/Pressed",
+            "Compact/Focus",
+            "Compact/Disabled",
+            "Compact/Loading"
+          ],
+          "purpose": "Destructive action hierarchy",
+          "semantics": "Native button; explicit type and accessible action label",
+          "keyboard": "Enter/Space; focus static; loading preserves context",
+          "status": "design-draft-runtime-unvalidated"
+        }
+      ]
+    },
+    {
+      "pageId": "63:2",
+      "reviewId": "63:116",
+      "specId": "63:176",
+      "specVerified": true,
+      "components": [
+        {
+          "id": "da.overlays.dialog",
+          "name": "Overlays/Dialog",
+          "nodeId": "63:25",
+          "variants": 3,
+          "states": [
+            "Information",
+            "Confirmation",
+            "FormError"
+          ],
+          "properties": [
+            "Body"
+          ],
+          "purpose": "Focus a bounded task requiring an explicit response.",
+          "semantics": "Tested modal dialog primitive or native dialog; labelled by heading; background inert; nonmodal remains distinct.",
+          "keyboard": "Initial focus intentional; Tab trapped inside modal; Escape closes when safe; restore invoking control focus.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.overlays.drawer",
+          "name": "Overlays/Drawer",
+          "nodeId": "63:50",
+          "variants": 3,
+          "states": [
+            "Details",
+            "Filters",
+            "Mobile"
+          ],
+          "properties": [
+            "Body"
+          ],
+          "purpose": "Offer contextual detail or filters without losing the underlying task.",
+          "semantics": "Modal drawer uses dialog primitive; persistent desktop panel is an aside, not a focus trap.",
+          "keyboard": "Modal Tab containment/Escape/return focus; persistent panel follows document order.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.overlays.popover",
+          "name": "Overlays/Popover",
+          "nodeId": "63:59",
+          "variants": 2,
+          "states": [
+            "Information",
+            "Actions"
+          ],
+          "properties": [
+            "Title",
+            "Body"
+          ],
+          "purpose": "Show a small contextual surface tied to a trigger.",
+          "semantics": "Tested nonmodal popover; role based on content, not automatic tooltip/menu. Trigger expanded and controls where appropriate.",
+          "keyboard": "Trigger Enter/Space; content reachable logically; Escape dismisses and restores focus if it moved.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.overlays.banner",
+          "name": "Overlays/PreferenceBanner",
+          "nodeId": "63:74",
+          "variants": 2,
+          "states": [
+            "Consent",
+            "Preferences"
+          ],
+          "properties": [
+            "Title",
+            "Body"
+          ],
+          "purpose": "Give clear optional preference choices without coercion.",
+          "semantics": "Named region with equivalent accept/reject or preference controls; no preselected optional consent.",
+          "keyboard": "Logical controls; no focus trap unless intentionally modal; no disappearing time limit.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.actions.button-group",
+          "name": "Actions/ButtonGroup",
+          "nodeId": "63:86",
+          "variants": 2,
+          "states": [
+            "Horizontal",
+            "Stacked"
+          ],
+          "properties": [],
+          "purpose": "Group related actions with clear primary hierarchy.",
+          "semantics": "Named group only when helpful; native buttons and links retain their semantics.",
+          "keyboard": "Normal Tab order; use toolbar roving model only when intentionally implementing toolbar.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.actions.segmented-control",
+          "name": "Actions/SegmentedControl",
+          "nodeId": "63:115",
+          "variants": 3,
+          "states": [
+            "FirstSelected",
+            "SecondSelected",
+            "Focus"
+          ],
+          "properties": [],
+          "purpose": "Choose a single compact view or mode.",
+          "semantics": "Radio group for a setting; tabs only when controlling associated panels; do not mix roles.",
+          "keyboard": "Radio-group arrows and Space, or tabs model when used as tabs; specify consuming intent.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        }
+      ]
+    },
+    {
+      "pageId": "64:2",
+      "reviewId": "64:176",
+      "specId": "64:245",
+      "specVerified": true,
+      "components": [
+        {
+          "id": "da.data.table-cell",
+          "name": "Data/TableCell",
+          "nodeId": "64:11",
+          "variants": 4,
+          "states": [
+            "Header",
+            "Text",
+            "Numeric",
+            "Status"
+          ],
+          "properties": [
+            "Content"
+          ],
+          "purpose": "Consistent table cell anatomy and content alignment.",
+          "semantics": "th with scope for headers; td for data; numeric values preserve units; statuses explicit text.",
+          "keyboard": "Cells are not tab stops in plain tables; only interactive descendants.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.data.table",
+          "name": "Data/Table",
+          "nodeId": "64:117",
+          "variants": 6,
+          "states": [
+            "Default",
+            "Sorted",
+            "RowSelected",
+            "Loading",
+            "Empty",
+            "Compact"
+          ],
+          "properties": [
+            "Caption"
+          ],
+          "purpose": "Compare structured resource information without sacrificing reading order.",
+          "semantics": "Native table with caption and scoped headers. Sort buttons expose aria-sort. Row selection uses named checkboxes. Data grid only with full tested grid behavior.",
+          "keyboard": "Normal tab order through sorting/actions/checkboxes; horizontal scroll keyboard-accessible if needed; do not add grid arrows to static tables.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.data.description-list",
+          "name": "Data/DescriptionList",
+          "nodeId": "64:138",
+          "variants": 2,
+          "states": [
+            "Stacked",
+            "Inline"
+          ],
+          "properties": [],
+          "purpose": "Present labelled resource or system metadata.",
+          "semantics": "Native dl/dt/dd for name/value relationships; do not substitute a table for unrelated facts.",
+          "keyboard": "Static text; link values behave normally.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.data.filter-bar",
+          "name": "Data/FilterBar",
+          "nodeId": "64:157",
+          "variants": 3,
+          "states": [
+            "Default",
+            "FiltersApplied",
+            "NoResults"
+          ],
+          "properties": [
+            "Title",
+            "Result count"
+          ],
+          "purpose": "Filter content with clear scope and reversible choices.",
+          "semantics": "Labelled form/group with native controls, result count status and reset action.",
+          "keyboard": "Tab to controls; Enter submits when applicable; removing filters announces result changes without stealing focus.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.data.list",
+          "name": "Data/ResourceList",
+          "nodeId": "64:175",
+          "variants": 3,
+          "states": [
+            "Default",
+            "Loading",
+            "Empty"
+          ],
+          "properties": [
+            "Title"
+          ],
+          "purpose": "Compose accessible resource list items with stable ordering.",
+          "semantics": "Native list and labelled items; status separate from item names.",
+          "keyboard": "Normal link order; loading does not remove focused content.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        }
+      ]
+    },
+    {
+      "pageId": "65:2",
+      "reviewId": "65:130",
+      "specId": "65:205",
+      "specVerified": true,
+      "components": [
+        {
+          "id": "da.assets.media",
+          "name": "Assets/BrandMedia",
+          "nodeId": "65:30",
+          "variants": 3,
+          "states": [
+            "Wordmark",
+            "Symbol",
+            "Favicon"
+          ],
+          "properties": [],
+          "purpose": "Use the correct DesignA11y identity asset for context and scale.",
+          "semantics": "Home link named DesignA11y home; decorative duplicates hidden; never substitute favicon for clean symbol at large size.",
+          "keyboard": "Only a wrapping link is focusable.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.assets.payment-method",
+          "name": "Assets/PaymentMethod",
+          "nodeId": "65:43",
+          "variants": 3,
+          "states": [
+            "Card",
+            "BankTransfer",
+            "DigitalWallet"
+          ],
+          "properties": [
+            "Name"
+          ],
+          "purpose": "Represent a payment category without copying licensed payment logos.",
+          "semantics": "Visible payment method name; actual provider logos need approved official assets and license review. No current DesignA11y checkout implied.",
+          "keyboard": "Static asset; selection uses separate radio group.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.assets.locale",
+          "name": "Assets/LocaleOption",
+          "nodeId": "65:56",
+          "variants": 4,
+          "states": [
+            "EnglishUS",
+            "EnglishUK",
+            "FrenchFR",
+            "GermanDE"
+          ],
+          "properties": [],
+          "purpose": "Show locale with a written language and region, independent of flags.",
+          "semantics": "Use language autonyms and region text; flags represent countries, never language alone. National-flag examples are original geometry, not language labels.",
+          "keyboard": "Locale selection uses native select or tested menu; static preview is not interactive.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.assets.device",
+          "name": "Assets/DeviceTemplate",
+          "nodeId": "65:72",
+          "variants": 3,
+          "states": [
+            "Desktop",
+            "Tablet",
+            "Mobile"
+          ],
+          "properties": [],
+          "purpose": "Neutral original viewport frames for interface presentations.",
+          "semantics": "Presentation-only original frame, not a device manufacturer mockup; nested screenshot requires contextual alternative.",
+          "keyboard": "Decorative presentation frame, never an interactive control.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.layout.container",
+          "name": "Layout/Container",
+          "nodeId": "65:82",
+          "variants": 3,
+          "states": [
+            "Wide",
+            "Reading",
+            "Compact"
+          ],
+          "properties": [],
+          "purpose": "Constrain readable content with consistent gutters.",
+          "semantics": "Layout wrapper has no role by default; semantic section only with meaningful heading.",
+          "keyboard": "No tab stop; visual order follows DOM order.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.layout.grid",
+          "name": "Layout/Grid",
+          "nodeId": "65:110",
+          "variants": 3,
+          "states": [
+            "ThreeColumns",
+            "TwoColumns",
+            "OneColumn"
+          ],
+          "properties": [],
+          "purpose": "Responsive content grouping with source-order consistency.",
+          "semantics": "CSS grid in implementation; no role from layout. Lists retain list semantics.",
+          "keyboard": "Reading and focus order follow content; no CSS order that disagrees with DOM.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.layout.divider",
+          "name": "Layout/Divider",
+          "nodeId": "65:116",
+          "variants": 2,
+          "states": [
+            "Horizontal",
+            "Labelled"
+          ],
+          "properties": [
+            "Label"
+          ],
+          "purpose": "Separate meaningful content groups without adding visual clutter.",
+          "semantics": "Decorative border by default; hr for thematic break; heading labels remain proper headings.",
+          "keyboard": "Not focusable.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.layout.spacer",
+          "name": "Layout/SpacingReference",
+          "nodeId": "65:129",
+          "variants": 3,
+          "states": [
+            "Compact",
+            "Regular",
+            "Generous"
+          ],
+          "properties": [],
+          "purpose": "Document reusable spacing scale and purposeful density.",
+          "semantics": "Documentation reference only; use space variables instead of spacer DOM elements.",
+          "keyboard": "Not interactive.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        }
+      ]
+    },
+    {
+      "pageId": "68:2",
+      "reviewId": "68:304",
+      "specId": "68:456",
+      "specVerified": true,
+      "components": [
+        {
+          "id": "da.patterns.home",
+          "name": "Patterns/Homepage",
+          "nodeId": "68:110",
+          "variants": 2,
+          "states": [
+            "Desktop",
+            "Mobile"
+          ],
+          "properties": [
+            "Headline",
+            "Introduction"
+          ],
+          "purpose": "Editorial homepage hierarchy with toolkit prominence and distinct featured/latest content.",
+          "semantics": "Header, main, labelled sections and footer; one h1; meaningful article links and reading order.",
+          "keyboard": "Skip link first; consistent nav and card order; no duplicate featured story in next block.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.patterns.article",
+          "name": "Patterns/Article",
+          "nodeId": "68:149",
+          "variants": 2,
+          "states": [
+            "Desktop",
+            "Mobile"
+          ],
+          "properties": [
+            "Title"
+          ],
+          "purpose": "Long-form article template with author, metadata and related resources.",
+          "semantics": "Article landmark, one h1, publication time, byline and logical heading hierarchy.",
+          "keyboard": "In-page links and related resources follow document order; skip repetitive navigation.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.patterns.toolkit",
+          "name": "Patterns/ToolkitLanding",
+          "nodeId": "68:184",
+          "variants": 2,
+          "states": [
+            "Desktop",
+            "Mobile"
+          ],
+          "properties": [
+            "Title",
+            "Introduction"
+          ],
+          "purpose": "Route people to practical design, engineering and content guidance.",
+          "semantics": "Main heading, introductory guidance and linked resource groups; revision provenance explicit.",
+          "keyboard": "Clear headings and links; no hidden essential guidance.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.patterns.results",
+          "name": "Patterns/SearchResults",
+          "nodeId": "68:239",
+          "variants": 3,
+          "states": [
+            "Results",
+            "Empty",
+            "Loading"
+          ],
+          "properties": [],
+          "purpose": "Search context, result count, filters and recovery.",
+          "semantics": "Search landmark and main results region; polite result status; filters have labels.",
+          "keyboard": "Search does not steal focus on result update; pagination preserves predictable navigation.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.patterns.form",
+          "name": "Patterns/PreferencesForm",
+          "nodeId": "68:278",
+          "variants": 3,
+          "states": [
+            "Default",
+            "Error",
+            "Success"
+          ],
+          "properties": [],
+          "purpose": "Compose labelled form controls, help, validation and outcomes.",
+          "semantics": "Native form with grouped controls, error summary and associated inline messages; preserve entered values.",
+          "keyboard": "Submit validates; focus summary or first invalid according to flow; success status without unexpected focus change.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        },
+        {
+          "id": "da.patterns.motion-lab",
+          "name": "Patterns/MotionLab",
+          "nodeId": "68:303",
+          "variants": 2,
+          "states": [
+            "Ready",
+            "StaticAlternative"
+          ],
+          "properties": [],
+          "purpose": "Demonstrate and evaluate reusable production-interface microinteractions.",
+          "semantics": "Named demo sections with instructions, explicit replay/pause where required and static alternatives. No live-site demo inventory claimed.",
+          "keyboard": "Named controls operate by keyboard/touch; repeated animation is user initiated; preserve focus and alternative feedback.",
+          "motion": "contracts/motion/interface-microinteractions.json",
+          "status": "design-draft-runtime-unvalidated"
+        }
+      ]
+    },
+    {
+      "pageId": "87:2",
+      "reviewId": "88:281",
+      "specId": "96:1063",
+      "specVerified": true,
+      "components": [
+        {
+          "name": "Resources/Hero",
+          "nodeId": "87:25",
+          "variants": 2,
+          "properties": [
+            "Eyebrow#87:0",
+            "Title#87:3",
+            "Deck#87:6",
+            "State"
+          ],
+          "status": "source-aligned-design-draft",
+          "implementation": "docs/specs/resources-site-patterns.md"
+        },
+        {
+          "name": "Resources/FeaturedToolkitPanel",
+          "nodeId": "87:45",
+          "variants": 2,
+          "properties": [
+            "Title#87:9",
+            "Body#87:12",
+            "CTA#87:15",
+            "Verification note#87:18",
+            "State"
+          ],
+          "status": "source-aligned-design-draft",
+          "implementation": "docs/specs/resources-site-patterns.md"
+        },
+        {
+          "name": "Resources/TopicJumps",
+          "nodeId": "87:74",
+          "variants": 2,
+          "properties": [
+            "State"
+          ],
+          "status": "source-aligned-design-draft",
+          "implementation": "docs/specs/resources-site-patterns.md"
+        },
+        {
+          "name": "Resources/ResourceRow",
+          "nodeId": "87:173",
+          "variants": 6,
+          "properties": [
+            "Kind#87:21",
+            "Title#87:28",
+            "Description#87:35",
+            "State"
+          ],
+          "status": "source-aligned-design-draft",
+          "implementation": "docs/specs/resources-site-patterns.md"
+        },
+        {
+          "name": "Resources/SystemPreviewCard",
+          "nodeId": "87:214",
+          "variants": 4,
+          "properties": [
+            "Kind#87:42",
+            "Title#87:47",
+            "Description#87:52",
+            "Credit#87:57",
+            "State"
+          ],
+          "status": "source-aligned-design-draft",
+          "implementation": "docs/specs/resources-site-patterns.md"
+        },
+        {
+          "name": "Resources/FigureCaption",
+          "nodeId": "88:48",
+          "variants": 2,
+          "properties": [
+            "Caption#88:0",
+            "State"
+          ],
+          "status": "source-aligned-design-draft",
+          "implementation": "docs/specs/resources-site-patterns.md"
+        },
+        {
+          "name": "Resources/ResourceGroup",
+          "nodeId": "88:195",
+          "variants": 4,
+          "properties": [
+            "Heading#88:3",
+            "Show third resource#93:0",
+            "Show fourth resource#93:5",
+            "Show figure#93:10",
+            "Show fifth resource#95:0",
+            "State"
+          ],
+          "status": "source-aligned-design-draft",
+          "implementation": "docs/specs/resources-site-patterns.md"
+        },
+        {
+          "name": "Resources/SystemShowcase",
+          "nodeId": "88:280",
+          "variants": 2,
+          "properties": [
+            "Title#88:8",
+            "Introduction#88:11",
+            "Verification note#88:14",
+            "State"
+          ],
+          "status": "source-aligned-design-draft",
+          "implementation": "docs/specs/resources-site-patterns.md"
+        },
+        {
+          "name": "Resources/FeaturedResourcePair",
+          "nodeId": "106:1103",
+          "variants": 2,
+          "properties": [
+            "State"
+          ],
+          "status": "source-aligned-design-draft",
+          "implementation": "site/squarespace/resources-system-promo.html"
+        }
+      ]
+    }
+  ],
+  "pendingCategories": [],
+  "releaseGates": [
+    "All reference categories mapped explicitly",
+    "Meaningful properties and variants",
+    "Theme and layout review",
+    "Tested runtime primitive mapping",
+    "Named browser/AT evidence",
+    "Human review",
+    "Community redistribution audit"
+  ],
+  "catalogNodeId": "74:2",
+  "additionalAssets": {
+    "icons": [
+      {
+        "id": "da.icon.arrowleft",
+        "name": "Icon/ArrowLeft",
+        "nodeId": "66:63",
+        "status": "original-vector-draft"
+      },
+      {
+        "id": "da.icon.arrowup",
+        "name": "Icon/ArrowUp",
+        "nodeId": "66:70",
+        "status": "original-vector-draft"
+      },
+      {
+        "id": "da.icon.arrowdown",
+        "name": "Icon/ArrowDown",
+        "nodeId": "66:76",
+        "status": "original-vector-draft"
+      },
+      {
+        "id": "da.icon.chevrondown",
+        "name": "Icon/ChevronDown",
+        "nodeId": "66:82",
+        "status": "original-vector-draft"
+      },
+      {
+        "id": "da.icon.chevronright",
+        "name": "Icon/ChevronRight",
+        "nodeId": "66:88",
+        "status": "original-vector-draft"
+      },
+      {
+        "id": "da.icon.plus",
+        "name": "Icon/Plus",
+        "nodeId": "66:94",
+        "status": "original-vector-draft"
+      },
+      {
+        "id": "da.icon.minus",
+        "name": "Icon/Minus",
+        "nodeId": "66:100",
+        "status": "original-vector-draft"
+      },
+      {
+        "id": "da.icon.check",
+        "name": "Icon/Check",
+        "nodeId": "66:107",
+        "status": "original-vector-draft"
+      },
+      {
+        "id": "da.icon.search",
+        "name": "Icon/Search",
+        "nodeId": "66:113",
+        "status": "original-vector-draft"
+      },
+      {
+        "id": "da.icon.menu",
+        "name": "Icon/Menu",
+        "nodeId": "66:119",
+        "status": "original-vector-draft"
+      },
+      {
+        "id": "da.icon.info",
+        "name": "Icon/Info",
+        "nodeId": "66:125",
+        "status": "original-vector-draft"
+      },
+      {
+        "id": "da.icon.warning",
+        "name": "Icon/Warning",
+        "nodeId": "66:131",
+        "status": "original-vector-draft"
+      },
+      {
+        "id": "da.icon.download",
+        "name": "Icon/Download",
+        "nodeId": "66:137",
+        "status": "original-vector-draft"
+      },
+      {
+        "id": "da.icon.upload",
+        "name": "Icon/Upload",
+        "nodeId": "66:144",
+        "status": "original-vector-draft"
+      },
+      {
+        "id": "da.icon.externallink",
+        "name": "Icon/ExternalLink",
+        "nodeId": "66:150",
+        "status": "original-vector-draft"
+      },
+      {
+        "id": "da.icon.copy",
+        "name": "Icon/Copy",
+        "nodeId": "66:156",
+        "status": "original-vector-draft"
+      },
+      {
+        "id": "da.icon.calendar",
+        "name": "Icon/Calendar",
+        "nodeId": "66:162",
+        "status": "original-vector-draft"
+      },
+      {
+        "id": "da.icon.filter",
+        "name": "Icon/Filter",
+        "nodeId": "66:168",
+        "status": "original-vector-draft"
+      },
+      {
+        "id": "da.icon.bookmark",
+        "name": "Icon/Bookmark",
+        "nodeId": "66:174",
+        "status": "original-vector-draft"
+      },
+      {
+        "id": "da.icon.play",
+        "name": "Icon/Play",
+        "nodeId": "66:181",
+        "status": "original-vector-draft"
+      },
+      {
+        "id": "da.icon.pause",
+        "name": "Icon/Pause",
+        "nodeId": "66:187",
+        "status": "original-vector-draft"
+      },
+      {
+        "id": "da.icon.settings",
+        "name": "Icon/Settings",
+        "nodeId": "66:193",
+        "status": "original-vector-draft"
+      },
+      {
+        "id": "da.icon.sun",
+        "name": "Icon/Sun",
+        "nodeId": "66:199",
+        "status": "original-vector-draft"
+      },
+      {
+        "id": "da.icon.moon",
+        "name": "Icon/Moon",
+        "nodeId": "66:205",
+        "status": "original-vector-draft"
+      }
+    ],
+    "flags": [
+      {
+        "id": "da.flag.unitedstates",
+        "name": "Flag/UnitedStates",
+        "nodeId": "69:87",
+        "status": "original-illustrative-draft"
+      },
+      {
+        "id": "da.flag.unitedkingdom",
+        "name": "Flag/UnitedKingdom",
+        "nodeId": "69:219",
+        "status": "original-illustrative-draft"
+      },
+      {
+        "id": "da.flag.france",
+        "name": "Flag/France",
+        "nodeId": "69:241",
+        "status": "original-illustrative-draft"
+      },
+      {
+        "id": "da.flag.germany",
+        "name": "Flag/Germany",
+        "nodeId": "69:251",
+        "status": "original-illustrative-draft"
+      }
+    ],
+    "typography": [
+      {
+        "name": "Heading/Page",
+        "id": "S:3af74e4c1a731f99f039ead392bd09d923d142fa,",
+        "size": 48,
+        "lineHeight": 52,
+        "font": "Anton"
+      },
+      {
+        "name": "Heading/Component",
+        "id": "S:fcddf47bff463a8bfa629e26e1435bb803b71cb7,",
+        "size": 28,
+        "lineHeight": 34,
+        "font": "Anton"
+      },
+      {
+        "name": "Heading/Subsection",
+        "id": "S:3a25a1c79e8402b677ab2132835d1f291ae22dce,",
+        "size": 24,
+        "lineHeight": 30,
+        "font": "Anton"
+      },
+      {
+        "name": "Body/Large",
+        "id": "S:cb40d309ef253aa9b8d6e1f1b1f2e0e876b1707b,",
+        "size": 20,
+        "lineHeight": 32,
+        "font": "Archivo"
+      },
+      {
+        "name": "Body/Small",
+        "id": "S:0d4e09ee71d9d08aef1693448251c57e659d9549,",
+        "size": 14,
+        "lineHeight": 22,
+        "font": "Archivo"
+      },
+      {
+        "name": "UI/Caption",
+        "id": "S:14a161bbf598548a281f8a2b69a42d7a1b08ad99,",
+        "size": 12,
+        "lineHeight": 18,
+        "font": "Archivo"
+      },
+      {
+        "name": "UI/Numeric",
+        "id": "S:27dd13ffcaf6847bbea84ff4808936ef2e8cd926,",
+        "size": 16,
+        "lineHeight": 24,
+        "font": "Archivo"
+      }
+    ],
+    "effects": [
+      {
+        "id": "S:4c222e1038fa709952684948ec0e196b38a56888,",
+        "name": "Elevation/Surface"
+      },
+      {
+        "id": "S:115b203452746ce67d23858cacdf863dbf8b6384,",
+        "name": "Elevation/Overlay"
+      },
+      {
+        "id": "S:1d4d9596d75ea74c7ae62e4ccdb8a8d345e796f7,",
+        "name": "Blur/DecorativeSoft"
+      }
+    ],
+    "motionTokens": [
+      {
+        "id": "VariableID:71:5",
+        "name": "motion/feedback-duration-ms",
+        "value": 120,
+        "unit": "ms"
+      },
+      {
+        "id": "VariableID:71:6",
+        "name": "motion/selection-duration-ms",
+        "value": 100,
+        "unit": "ms"
+      },
+      {
+        "id": "VariableID:71:7",
+        "name": "motion/disclosure-duration-ms",
+        "value": 160,
+        "unit": "ms"
+      },
+      {
+        "id": "VariableID:71:8",
+        "name": "motion/overlay-duration-ms",
+        "value": 140,
+        "unit": "ms"
+      }
+    ],
+    "motionStudies": [
+      {
+        "nodeId": "67:94",
+        "field": "TRANSLATION_Y",
+        "keyframes": [
+          [
+            0,
+            0
+          ],
+          [
+            0.3,
+            0
+          ],
+          [
+            0.44,
+            -3
+          ],
+          [
+            0.9,
+            -3
+          ],
+          [
+            1.04,
+            0
+          ]
+        ]
+      },
+      {
+        "nodeId": "67:116",
+        "field": "TRANSLATION_X",
+        "keyframes": [
+          [
+            0,
+            0
+          ],
+          [
+            0.3,
+            0
+          ],
+          [
+            0.44,
+            16
+          ],
+          [
+            0.9,
+            16
+          ],
+          [
+            1.04,
+            0
+          ]
+        ]
+      },
+      {
+        "nodeId": "67:133",
+        "field": "OPACITY",
+        "keyframes": [
+          [
+            0,
+            0
+          ],
+          [
+            0.3,
+            0
+          ],
+          [
+            0.4,
+            1
+          ],
+          [
+            0.9,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      {
+        "nodeId": "67:146",
+        "field": "OPACITY",
+        "keyframes": [
+          [
+            0,
+            0
+          ],
+          [
+            0.3,
+            0
+          ],
+          [
+            0.42,
+            1
+          ],
+          [
+            1.2,
+            1
+          ]
+        ]
+      }
+    ]
+  },
+  "specMirrors": [
+    {
+      "page": "38:2",
+      "node": "58:844",
+      "path": "docs/specs/extended-forms.md"
+    },
+    {
+      "page": "59:2",
+      "node": "59:278",
+      "path": "docs/specs/navigation.md"
+    },
+    {
+      "page": "60:2",
+      "node": "60:231",
+      "path": "docs/specs/feedback-and-status.md"
+    },
+    {
+      "page": "61:2",
+      "node": "61:272",
+      "path": "docs/specs/content-and-editorial.md"
+    },
+    {
+      "page": "63:2",
+      "node": "63:176",
+      "path": "docs/specs/overlays-and-groups.md"
+    },
+    {
+      "page": "64:2",
+      "node": "64:245",
+      "path": "docs/specs/data-and-lists.md"
+    },
+    {
+      "page": "65:2",
+      "node": "65:205",
+      "path": "docs/specs/assets-and-layout.md"
+    },
+    {
+      "page": "68:2",
+      "node": "68:456",
+      "path": "docs/specs/responsive-patterns.md"
+    },
+    {
+      "page": "34:2",
+      "node": "62:152",
+      "path": "docs/specs/action-hierarchy.md"
+    },
+    {
+      "page": "43:2",
+      "node": "55:89",
+      "path": "docs/specs/interface-microinteractions.md"
+    },
+    {
+      "page": "9:2",
+      "node": "12:2",
+      "path": "docs/specs/system-overview.md"
+    },
+    {
+      "page": "9:2",
+      "node": "52:8",
+      "path": "docs/specs/library-coverage.md"
+    },
+    {
+      "page": "38:2",
+      "node": "54:220",
+      "path": "docs/specs/selection-and-multiline.md"
+    },
+    {
+      "page": "65:2",
+      "node": "66:211",
+      "path": "docs/specs/icons.md"
+    },
+    {
+      "page": "10:2",
+      "node": "70:18",
+      "path": "docs/specs/typography-scale.md"
+    },
+    {
+      "page": "14:2",
+      "node": "71:22",
+      "path": "docs/specs/effects-and-motion-metrics.md"
+    }
+  ],
+  "validation": {
+    "newComponentFamilies": 67,
+    "newVariants": 232,
+    "totalAuditedComponentSets": 75,
+    "totalAuditedVariants": 295,
+    "auditedPages": [
+      {
+        "pageId": "34:2",
+        "name": "30 · Components / Actions",
+        "sets": [
+          {
+            "id": "34:19",
+            "name": "Actions/Button",
+            "count": 6,
+            "description": true,
+            "properties": [
+              "Label#34:0",
+              "Loading label#34:12",
+              "State"
+            ]
+          },
+          {
+            "id": "34:32",
+            "name": "Actions/Link",
+            "count": 4,
+            "description": true,
+            "properties": [
+              "Label#34:7",
+              "State"
+            ]
+          },
+          {
+            "id": "37:54",
+            "name": "Actions/IconButton",
+            "count": 5,
+            "description": true,
+            "properties": [
+              "Icon#37:0",
+              "Accessible name#37:6",
+              "State"
+            ]
+          },
+          {
+            "id": "62:53",
+            "name": "Actions/ButtonSecondary",
+            "count": 12,
+            "description": true,
+            "properties": [
+              "Label#34:0",
+              "Loading label#34:12",
+              "Size",
+              "State"
+            ]
+          },
+          {
+            "id": "62:86",
+            "name": "Actions/ButtonTertiary",
+            "count": 12,
+            "description": true,
+            "properties": [
+              "Label#34:0",
+              "Loading label#34:12",
+              "Size",
+              "State"
+            ]
+          },
+          {
+            "id": "62:119",
+            "name": "Actions/ButtonDestructive",
+            "count": 12,
+            "description": true,
+            "properties": [
+              "Label#34:0",
+              "Loading label#34:12",
+              "Size",
+              "State"
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": "38:2",
+        "name": "31 · Components / Forms",
+        "sets": [
+          {
+            "id": "38:71",
+            "name": "Forms/TextField",
+            "count": 10,
+            "description": true,
+            "properties": [
+              "Label#38:0",
+              "Value#38:11",
+              "Helper text#38:22",
+              "Error message#38:33",
+              "Show helper#38:44",
+              "Interaction",
+              "Validation"
+            ]
+          },
+          {
+            "id": "53:122",
+            "name": "Forms/Checkbox",
+            "count": 12,
+            "description": true,
+            "properties": [
+              "Label#53:0",
+              "Selection",
+              "Interaction"
+            ]
+          },
+          {
+            "id": "53:159",
+            "name": "Forms/Radio",
+            "count": 8,
+            "description": true,
+            "properties": [
+              "Label#53:13",
+              "Selection",
+              "Interaction"
+            ]
+          },
+          {
+            "id": "53:200",
+            "name": "Forms/Switch",
+            "count": 8,
+            "description": true,
+            "properties": [
+              "Label#53:22",
+              "Selection",
+              "Interaction"
+            ]
+          },
+          {
+            "id": "54:87",
+            "name": "Forms/Textarea",
+            "count": 10,
+            "description": true,
+            "properties": [
+              "Label#38:0",
+              "Value#38:11",
+              "Helper text#38:22",
+              "Error message#38:33",
+              "Show helper#38:44",
+              "Interaction",
+              "Validation"
+            ]
+          },
+          {
+            "id": "58:179",
+            "name": "Forms/Select",
+            "count": 5,
+            "description": true,
+            "properties": [
+              "Label#58:0",
+              "Value#58:6",
+              "Helper text#58:12",
+              "Error message#72:0",
+              "State"
+            ]
+          },
+          {
+            "id": "58:232",
+            "name": "Forms/Combobox",
+            "count": 6,
+            "description": true,
+            "properties": [
+              "Label#58:18",
+              "Value#58:25",
+              "Helper text#58:32",
+              "Error message#72:6",
+              "State"
+            ]
+          },
+          {
+            "id": "58:273",
+            "name": "Forms/Search",
+            "count": 4,
+            "description": true,
+            "properties": [
+              "Label#58:39",
+              "Value#58:44",
+              "Helper text#58:49",
+              "Error message#72:13",
+              "State"
+            ]
+          },
+          {
+            "id": "58:306",
+            "name": "Forms/DateField",
+            "count": 4,
+            "description": true,
+            "properties": [
+              "Label#58:54",
+              "Value#58:59",
+              "Helper text#58:64",
+              "Error message#72:18",
+              "State"
+            ]
+          },
+          {
+            "id": "58:337",
+            "name": "Forms/FileUpload",
+            "count": 4,
+            "description": true,
+            "properties": [
+              "Label#58:69",
+              "State"
+            ]
+          },
+          {
+            "id": "58:363",
+            "name": "Forms/Slider",
+            "count": 3,
+            "description": true,
+            "properties": [
+              "Label#58:74",
+              "Value text#58:78",
+              "State"
+            ]
+          },
+          {
+            "id": "58:393",
+            "name": "Forms/NumberStepper",
+            "count": 4,
+            "description": true,
+            "properties": [
+              "Label#58:82",
+              "Value#58:87",
+              "State"
+            ]
+          },
+          {
+            "id": "58:673",
+            "name": "Forms/DatePicker",
+            "count": 3,
+            "description": true,
+            "properties": [
+              "Month label#58:92",
+              "State"
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": "59:2",
+        "name": "32 · Components / Navigation",
+        "sets": [
+          {
+            "id": "59:18",
+            "name": "Navigation/Item",
+            "count": 5,
+            "description": true,
+            "properties": [
+              "Label#59:0",
+              "State"
+            ]
+          },
+          {
+            "id": "59:63",
+            "name": "Navigation/Tabs",
+            "count": 4,
+            "description": true,
+            "properties": [
+              "Panel content#59:6",
+              "State"
+            ]
+          },
+          {
+            "id": "59:68",
+            "name": "Navigation/Breadcrumbs",
+            "count": 2,
+            "description": true,
+            "properties": [
+              "Trail#59:11",
+              "State"
+            ]
+          },
+          {
+            "id": "59:78",
+            "name": "Navigation/Pagination",
+            "count": 3,
+            "description": true,
+            "properties": [
+              "Summary#59:14",
+              "State"
+            ]
+          },
+          {
+            "id": "59:103",
+            "name": "Navigation/Menu",
+            "count": 3,
+            "description": true,
+            "properties": [
+              "State"
+            ]
+          },
+          {
+            "id": "59:160",
+            "name": "Navigation/Header",
+            "count": 3,
+            "description": true,
+            "properties": [
+              "State"
+            ]
+          },
+          {
+            "id": "59:183",
+            "name": "Navigation/Sidebar",
+            "count": 3,
+            "description": true,
+            "properties": [
+              "Title#59:18",
+              "State"
+            ]
+          },
+          {
+            "id": "59:196",
+            "name": "Navigation/Footer",
+            "count": 2,
+            "description": true,
+            "properties": [
+              "Description#59:22",
+              "State"
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": "60:2",
+        "name": "34 · Components / Feedback & status",
+        "sets": [
+          {
+            "id": "60:19",
+            "name": "Feedback/Alert",
+            "count": 4,
+            "description": true,
+            "properties": [
+              "Title#60:0",
+              "Message#60:5",
+              "State"
+            ]
+          },
+          {
+            "id": "60:31",
+            "name": "Feedback/Toast",
+            "count": 3,
+            "description": true,
+            "properties": [
+              "Title#60:10",
+              "Message#60:14",
+              "State"
+            ]
+          },
+          {
+            "id": "60:36",
+            "name": "Feedback/Tooltip",
+            "count": 2,
+            "description": true,
+            "properties": [
+              "Content#60:18",
+              "State"
+            ]
+          },
+          {
+            "id": "60:58",
+            "name": "Feedback/Progress",
+            "count": 4,
+            "description": true,
+            "properties": [
+              "Label#60:21",
+              "State"
+            ]
+          },
+          {
+            "id": "60:66",
+            "name": "Feedback/Loading",
+            "count": 3,
+            "description": true,
+            "properties": [
+              "Status#60:26",
+              "State"
+            ]
+          },
+          {
+            "id": "60:76",
+            "name": "Feedback/Skeleton",
+            "count": 2,
+            "description": true,
+            "properties": [
+              "State"
+            ]
+          },
+          {
+            "id": "60:92",
+            "name": "Feedback/EmptyState",
+            "count": 3,
+            "description": true,
+            "properties": [
+              "Title#60:30",
+              "Message#60:34",
+              "State"
+            ]
+          },
+          {
+            "id": "60:103",
+            "name": "Feedback/ErrorState",
+            "count": 2,
+            "description": true,
+            "properties": [
+              "Title#60:38",
+              "Message#60:41",
+              "State"
+            ]
+          },
+          {
+            "id": "60:112",
+            "name": "Content/Badge",
+            "count": 4,
+            "description": true,
+            "properties": [
+              "Label#60:44",
+              "State"
+            ]
+          },
+          {
+            "id": "60:126",
+            "name": "Content/Tag",
+            "count": 3,
+            "description": true,
+            "properties": [
+              "Label#60:49",
+              "State"
+            ]
+          },
+          {
+            "id": "60:136",
+            "name": "Content/Avatar",
+            "count": 3,
+            "description": true,
+            "properties": [
+              "Name#60:53",
+              "State"
+            ]
+          },
+          {
+            "id": "60:149",
+            "name": "Content/Rating",
+            "count": 3,
+            "description": true,
+            "properties": [
+              "Question#60:57",
+              "State"
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": "61:2",
+        "name": "33 · Components / Content & editorial",
+        "sets": [
+          {
+            "id": "61:33",
+            "name": "Content/ArticleCard",
+            "count": 4,
+            "description": true,
+            "properties": [
+              "Category#61:0",
+              "Title#61:5",
+              "Summary#61:10",
+              "Metadata#61:15",
+              "State"
+            ]
+          },
+          {
+            "id": "61:62",
+            "name": "Content/ResourceCard",
+            "count": 4,
+            "description": true,
+            "properties": [
+              "Type#61:20",
+              "Title#61:25",
+              "Summary#61:30",
+              "State"
+            ]
+          },
+          {
+            "id": "61:79",
+            "name": "Content/FeaturedStory",
+            "count": 2,
+            "description": true,
+            "properties": [
+              "Label#61:35",
+              "Title#61:38",
+              "Summary#61:41",
+              "State"
+            ]
+          },
+          {
+            "id": "61:87",
+            "name": "Content/AuthorProfile",
+            "count": 2,
+            "description": true,
+            "properties": [
+              "Name#61:44",
+              "Role#61:47",
+              "Biography#61:50",
+              "State"
+            ]
+          },
+          {
+            "id": "61:92",
+            "name": "Content/Metadata",
+            "count": 2,
+            "description": true,
+            "properties": [
+              "Metadata#61:53",
+              "State"
+            ]
+          },
+          {
+            "id": "61:118",
+            "name": "Content/Accordion",
+            "count": 4,
+            "description": true,
+            "properties": [
+              "Label#61:56",
+              "Content#61:61",
+              "State"
+            ]
+          },
+          {
+            "id": "61:136",
+            "name": "Content/ListItem",
+            "count": 4,
+            "description": true,
+            "properties": [
+              "Title#61:66",
+              "Description#61:71",
+              "State"
+            ]
+          },
+          {
+            "id": "61:143",
+            "name": "Content/Quote",
+            "count": 2,
+            "description": true,
+            "properties": [
+              "Quote#61:76",
+              "Attribution#61:79",
+              "State"
+            ]
+          },
+          {
+            "id": "61:164",
+            "name": "Content/PricingCard",
+            "count": 3,
+            "description": true,
+            "properties": [
+              "Plan name#61:82",
+              "Price#61:86",
+              "Terms#61:90",
+              "Features#61:94",
+              "State"
+            ]
+          },
+          {
+            "id": "61:172",
+            "name": "Content/Review",
+            "count": 2,
+            "description": true,
+            "properties": [
+              "Rating#61:98",
+              "Review#61:101",
+              "Attribution#61:104",
+              "State"
+            ]
+          },
+          {
+            "id": "61:183",
+            "name": "Content/ArticleBody",
+            "count": 2,
+            "description": true,
+            "properties": [
+              "Heading#61:107",
+              "Body#61:110",
+              "Callout#61:113",
+              "State"
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": "63:2",
+        "name": "35 · Components / Overlays & groups",
+        "sets": [
+          {
+            "id": "63:25",
+            "name": "Overlays/Dialog",
+            "count": 3,
+            "description": true,
+            "properties": [
+              "Title#63:0",
+              "Body#63:4",
+              "State"
+            ]
+          },
+          {
+            "id": "63:50",
+            "name": "Overlays/Drawer",
+            "count": 3,
+            "description": true,
+            "properties": [
+              "Title#63:8",
+              "Body#63:12",
+              "State"
+            ]
+          },
+          {
+            "id": "63:59",
+            "name": "Overlays/Popover",
+            "count": 2,
+            "description": true,
+            "properties": [
+              "Title#63:16",
+              "Body#63:19",
+              "State"
+            ]
+          },
+          {
+            "id": "63:74",
+            "name": "Overlays/PreferenceBanner",
+            "count": 2,
+            "description": true,
+            "properties": [
+              "Title#63:22",
+              "Body#63:25",
+              "State"
+            ]
+          },
+          {
+            "id": "63:86",
+            "name": "Actions/ButtonGroup",
+            "count": 2,
+            "description": true,
+            "properties": [
+              "State"
+            ]
+          },
+          {
+            "id": "63:115",
+            "name": "Actions/SegmentedControl",
+            "count": 3,
+            "description": true,
+            "properties": [
+              "State"
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": "64:2",
+        "name": "36 · Components / Data & lists",
+        "sets": [
+          {
+            "id": "64:11",
+            "name": "Data/TableCell",
+            "count": 4,
+            "description": true,
+            "properties": [
+              "Content#64:0",
+              "State"
+            ]
+          },
+          {
+            "id": "64:117",
+            "name": "Data/Table",
+            "count": 6,
+            "description": true,
+            "properties": [
+              "Caption#64:5",
+              "State"
+            ]
+          },
+          {
+            "id": "64:138",
+            "name": "Data/DescriptionList",
+            "count": 2,
+            "description": true,
+            "properties": [
+              "State"
+            ]
+          },
+          {
+            "id": "64:157",
+            "name": "Data/FilterBar",
+            "count": 3,
+            "description": true,
+            "properties": [
+              "Title#64:12",
+              "Result count#64:16",
+              "State"
+            ]
+          },
+          {
+            "id": "64:175",
+            "name": "Data/ResourceList",
+            "count": 3,
+            "description": true,
+            "properties": [
+              "Title#64:20",
+              "State"
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": "65:2",
+        "name": "24 · Foundations / Assets & layout",
+        "sets": [
+          {
+            "id": "65:30",
+            "name": "Assets/BrandMedia",
+            "count": 3,
+            "description": true,
+            "properties": [
+              "State"
+            ]
+          },
+          {
+            "id": "65:43",
+            "name": "Assets/PaymentMethod",
+            "count": 3,
+            "description": true,
+            "properties": [
+              "Name#65:0",
+              "State"
+            ]
+          },
+          {
+            "id": "65:56",
+            "name": "Assets/LocaleOption",
+            "count": 4,
+            "description": true,
+            "properties": [
+              "Locale label#65:4",
+              "State"
+            ]
+          },
+          {
+            "id": "65:72",
+            "name": "Assets/DeviceTemplate",
+            "count": 3,
+            "description": true,
+            "properties": [
+              "State"
+            ]
+          },
+          {
+            "id": "65:82",
+            "name": "Layout/Container",
+            "count": 3,
+            "description": true,
+            "properties": [
+              "State"
+            ]
+          },
+          {
+            "id": "65:110",
+            "name": "Layout/Grid",
+            "count": 3,
+            "description": true,
+            "properties": [
+              "State"
+            ]
+          },
+          {
+            "id": "65:116",
+            "name": "Layout/Divider",
+            "count": 2,
+            "description": true,
+            "properties": [
+              "Label#65:9",
+              "State"
+            ]
+          },
+          {
+            "id": "65:129",
+            "name": "Layout/SpacingReference",
+            "count": 3,
+            "description": true,
+            "properties": [
+              "State"
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": "68:2",
+        "name": "40 · Patterns / Responsive templates",
+        "sets": [
+          {
+            "id": "68:110",
+            "name": "Patterns/Homepage",
+            "count": 2,
+            "description": true,
+            "properties": [
+              "Headline#68:0",
+              "Introduction#68:3",
+              "State"
+            ]
+          },
+          {
+            "id": "68:149",
+            "name": "Patterns/Article",
+            "count": 2,
+            "description": true,
+            "properties": [
+              "Title#68:6",
+              "State"
+            ]
+          },
+          {
+            "id": "68:184",
+            "name": "Patterns/ToolkitLanding",
+            "count": 2,
+            "description": true,
+            "properties": [
+              "Title#68:9",
+              "Introduction#68:12",
+              "State"
+            ]
+          },
+          {
+            "id": "68:239",
+            "name": "Patterns/SearchResults",
+            "count": 3,
+            "description": true,
+            "properties": [
+              "State"
+            ]
+          },
+          {
+            "id": "68:278",
+            "name": "Patterns/PreferencesForm",
+            "count": 3,
+            "description": true,
+            "properties": [
+              "State"
+            ]
+          },
+          {
+            "id": "68:303",
+            "name": "Patterns/MotionLab",
+            "count": 2,
+            "description": true,
+            "properties": [
+              "State"
+            ]
+          }
+        ]
+      }
+    ],
+    "topLevelOverlapAudit": "No overlapping top-level nodes on nine audited component/pattern pages.",
+    "visualSamples": [
+      "Selection controls 54:156",
+      "Article cards 61:33",
+      "Table 64:117",
+      "Extended forms 58:674",
+      "Overlay review 63:116",
+      "Narrow homepage pattern 68:57; image/divider overflow corrected",
+      "Microinteraction study 67:89"
+    ],
+    "limitations": [
+      "Visual review sampled representative compositions, not every variant in every theme.",
+      "Native timeline tracks are authored; no new video export or runtime interaction validation claimed.",
+      "Meaningful semantic state in production requires native elements or tested primitives.",
+      "Some structural content examples and responsive variants need further depth; draft coverage is not release readiness.",
+      "Country flags are illustrative examples; icon/flag packs are not exhaustive.",
+      "Provider payment logos and branded device artwork are intentionally not copied."
+    ],
+    "stateDefaultChecks": [
+      {
+        "component": "60:92",
+        "state": "State=NoSavedItems",
+        "actual": "Your saved resources will appear here",
+        "expected": "Your saved resources will appear here",
+        "pass": true
+      },
+      {
+        "component": "65:56",
+        "state": "State=GermanDE",
+        "actual": "Deutsch (Deutschland)",
+        "expected": "Deutsch (Deutschland)",
+        "pass": true
+      },
+      {
+        "component": "63:25",
+        "state": "State=Confirmation",
+        "actual": "Remove saved resource?",
+        "expected": "Remove saved resource?",
+        "pass": true
+      }
+    ],
+    "reviewNotes": [
+      "Mobile media and divider overflow corrected without detaching instances.",
+      "Secondary button regular/compact heights verified at 48/44px.",
+      "State-specific feedback, locale and dialog headings verified in instances.",
+      "Specs and property lists reconciled with native APIs."
+    ]
+  },
+  "remainingWork": [
+    "Complete component-by-component theme, responsive and content-extreme reviews",
+    "Map production components to tested primitives; implement behavior and motion",
+    "Validate keyboard/focus/announcements and named browser/assistive-technology pairings",
+    "Extend icon/locale/media coverage according to actual product needs",
+    "Deepen grouped field errors, nested menus, date-range edge cases and loading combinations",
+    "Audit Community duplicate transfer of variables, Specs, links and licensed-source provenance"
+  ],
+  "referenceCategoryMapping": [
+    {
+      "category": "Colors",
+      "nodeId": "1:40",
+      "status": "original-native-draft-representative-coverage",
+      "url": "https://www.figma.com/design/YnhNUlEByax6x6ZY1YQL9e/DesignA11y-Design-System?node-id=1-40"
+    },
+    {
+      "category": "Typography",
+      "nodeId": "10:2",
+      "status": "original-native-draft-representative-coverage",
+      "url": "https://www.figma.com/design/YnhNUlEByax6x6ZY1YQL9e/DesignA11y-Design-System?node-id=10-2"
+    },
+    {
+      "category": "Shadows and blurs",
+      "nodeId": "71:22",
+      "status": "original-native-draft-representative-coverage",
+      "url": "https://www.figma.com/design/YnhNUlEByax6x6ZY1YQL9e/DesignA11y-Design-System?node-id=71-22"
+    },
+    {
+      "category": "Grids",
+      "nodeId": "65:110",
+      "status": "original-native-draft-representative-coverage",
+      "url": "https://www.figma.com/design/YnhNUlEByax6x6ZY1YQL9e/DesignA11y-Design-System?node-id=65-110"
+    },
+    {
+      "category": "Icons",
+      "nodeId": "66:211",
+      "status": "original-native-draft-representative-coverage",
+      "url": "https://www.figma.com/design/YnhNUlEByax6x6ZY1YQL9e/DesignA11y-Design-System?node-id=66-211"
+    },
+    {
+      "category": "Flags/locales",
+      "nodeId": "69:84",
+      "status": "original-native-draft-representative-coverage",
+      "url": "https://www.figma.com/design/YnhNUlEByax6x6ZY1YQL9e/DesignA11y-Design-System?node-id=69-84"
+    },
+    {
+      "category": "Logos and media",
+      "nodeId": "65:30",
+      "status": "original-native-draft-representative-coverage",
+      "url": "https://www.figma.com/design/YnhNUlEByax6x6ZY1YQL9e/DesignA11y-Design-System?node-id=65-30"
+    },
+    {
+      "category": "Payment methods",
+      "nodeId": "65:43",
+      "status": "original-native-draft-representative-coverage",
+      "url": "https://www.figma.com/design/YnhNUlEByax6x6ZY1YQL9e/DesignA11y-Design-System?node-id=65-43"
+    },
+    {
+      "category": "Device templates",
+      "nodeId": "65:72",
+      "status": "original-native-draft-representative-coverage",
+      "url": "https://www.figma.com/design/YnhNUlEByax6x6ZY1YQL9e/DesignA11y-Design-System?node-id=65-72"
+    },
+    {
+      "category": "Alerts",
+      "nodeId": "60:19",
+      "status": "original-native-draft-representative-coverage",
+      "url": "https://www.figma.com/design/YnhNUlEByax6x6ZY1YQL9e/DesignA11y-Design-System?node-id=60-19"
+    },
+    {
+      "category": "Avatars",
+      "nodeId": "60:136",
+      "status": "original-native-draft-representative-coverage",
+      "url": "https://www.figma.com/design/YnhNUlEByax6x6ZY1YQL9e/DesignA11y-Design-System?node-id=60-136"
+    },
+    {
+      "category": "Badges",
+      "nodeId": "60:112",
+      "status": "original-native-draft-representative-coverage",
+      "url": "https://www.figma.com/design/YnhNUlEByax6x6ZY1YQL9e/DesignA11y-Design-System?node-id=60-112"
+    },
+    {
+      "category": "Buttons",
+      "nodeId": "62:152",
+      "status": "original-native-draft-representative-coverage",
+      "url": "https://www.figma.com/design/YnhNUlEByax6x6ZY1YQL9e/DesignA11y-Design-System?node-id=62-152"
+    },
+    {
+      "category": "Button groups",
+      "nodeId": "63:86",
+      "status": "original-native-draft-representative-coverage",
+      "url": "https://www.figma.com/design/YnhNUlEByax6x6ZY1YQL9e/DesignA11y-Design-System?node-id=63-86"
+    },
+    {
+      "category": "Breadcrumbs",
+      "nodeId": "59:68",
+      "status": "original-native-draft-representative-coverage",
+      "url": "https://www.figma.com/design/YnhNUlEByax6x6ZY1YQL9e/DesignA11y-Design-System?node-id=59-68"
+    },
+    {
+      "category": "Cards",
+      "nodeId": "61:33",
+      "status": "original-native-draft-representative-coverage",
+      "url": "https://www.figma.com/design/YnhNUlEByax6x6ZY1YQL9e/DesignA11y-Design-System?node-id=61-33"
+    },
+    {
+      "category": "Content",
+      "nodeId": "61:183",
+      "status": "original-native-draft-representative-coverage",
+      "url": "https://www.figma.com/design/YnhNUlEByax6x6ZY1YQL9e/DesignA11y-Design-System?node-id=61-183"
+    },
+    {
+      "category": "Date picker",
+      "nodeId": "58:673",
+      "status": "original-native-draft-representative-coverage",
+      "url": "https://www.figma.com/design/YnhNUlEByax6x6ZY1YQL9e/DesignA11y-Design-System?node-id=58-673"
+    },
+    {
+      "category": "Footer",
+      "nodeId": "59:196",
+      "status": "original-native-draft-representative-coverage",
+      "url": "https://www.figma.com/design/YnhNUlEByax6x6ZY1YQL9e/DesignA11y-Design-System?node-id=59-196"
+    },
+    {
+      "category": "Inputs and dropdowns",
+      "nodeId": "58:844",
+      "status": "original-native-draft-representative-coverage",
+      "url": "https://www.figma.com/design/YnhNUlEByax6x6ZY1YQL9e/DesignA11y-Design-System?node-id=58-844"
+    },
+    {
+      "category": "List items",
+      "nodeId": "61:136",
+      "status": "original-native-draft-representative-coverage",
+      "url": "https://www.figma.com/design/YnhNUlEByax6x6ZY1YQL9e/DesignA11y-Design-System?node-id=61-136"
+    },
+    {
+      "category": "Modals",
+      "nodeId": "63:25",
+      "status": "original-native-draft-representative-coverage",
+      "url": "https://www.figma.com/design/YnhNUlEByax6x6ZY1YQL9e/DesignA11y-Design-System?node-id=63-25"
+    },
+    {
+      "category": "Menus",
+      "nodeId": "59:103",
+      "status": "original-native-draft-representative-coverage",
+      "url": "https://www.figma.com/design/YnhNUlEByax6x6ZY1YQL9e/DesignA11y-Design-System?node-id=59-103"
+    },
+    {
+      "category": "Navigation headers",
+      "nodeId": "59:160",
+      "status": "original-native-draft-representative-coverage",
+      "url": "https://www.figma.com/design/YnhNUlEByax6x6ZY1YQL9e/DesignA11y-Design-System?node-id=59-160"
+    },
+    {
+      "category": "Pagination",
+      "nodeId": "59:78",
+      "status": "original-native-draft-representative-coverage",
+      "url": "https://www.figma.com/design/YnhNUlEByax6x6ZY1YQL9e/DesignA11y-Design-System?node-id=59-78"
+    },
+    {
+      "category": "Pricing",
+      "nodeId": "61:164",
+      "status": "original-native-draft-representative-coverage",
+      "url": "https://www.figma.com/design/YnhNUlEByax6x6ZY1YQL9e/DesignA11y-Design-System?node-id=61-164"
+    },
+    {
+      "category": "Progress",
+      "nodeId": "60:58",
+      "status": "original-native-draft-representative-coverage",
+      "url": "https://www.figma.com/design/YnhNUlEByax6x6ZY1YQL9e/DesignA11y-Design-System?node-id=60-58"
+    },
+    {
+      "category": "Ratings and reviews",
+      "nodeId": "61:172",
+      "status": "original-native-draft-representative-coverage",
+      "url": "https://www.figma.com/design/YnhNUlEByax6x6ZY1YQL9e/DesignA11y-Design-System?node-id=61-172"
+    },
+    {
+      "category": "Sidebars",
+      "nodeId": "59:183",
+      "status": "original-native-draft-representative-coverage",
+      "url": "https://www.figma.com/design/YnhNUlEByax6x6ZY1YQL9e/DesignA11y-Design-System?node-id=59-183"
+    },
+    {
+      "category": "Sliders",
+      "nodeId": "58:363",
+      "status": "original-native-draft-representative-coverage",
+      "url": "https://www.figma.com/design/YnhNUlEByax6x6ZY1YQL9e/DesignA11y-Design-System?node-id=58-363"
+    },
+    {
+      "category": "Tables",
+      "nodeId": "64:117",
+      "status": "original-native-draft-representative-coverage",
+      "url": "https://www.figma.com/design/YnhNUlEByax6x6ZY1YQL9e/DesignA11y-Design-System?node-id=64-117"
+    },
+    {
+      "category": "Tabs",
+      "nodeId": "59:63",
+      "status": "original-native-draft-representative-coverage",
+      "url": "https://www.figma.com/design/YnhNUlEByax6x6ZY1YQL9e/DesignA11y-Design-System?node-id=59-63"
+    },
+    {
+      "category": "Tags",
+      "nodeId": "60:126",
+      "status": "original-native-draft-representative-coverage",
+      "url": "https://www.figma.com/design/YnhNUlEByax6x6ZY1YQL9e/DesignA11y-Design-System?node-id=60-126"
+    },
+    {
+      "category": "Toggles",
+      "nodeId": "53:200",
+      "status": "original-native-draft-representative-coverage",
+      "url": "https://www.figma.com/design/YnhNUlEByax6x6ZY1YQL9e/DesignA11y-Design-System?node-id=53-200"
+    },
+    {
+      "category": "Tooltips",
+      "nodeId": "60:36",
+      "status": "original-native-draft-representative-coverage",
+      "url": "https://www.figma.com/design/YnhNUlEByax6x6ZY1YQL9e/DesignA11y-Design-System?node-id=60-36"
+    }
+  ],
+  "sourceAlignedFollowup": {
+    "date": "2026-10-18",
+    "pageId": "87:2",
+    "componentSets": 9,
+    "variants": 26,
+    "implementationSpec": "108:1116",
+    "reportSpec": "109:1116",
+    "publishedPage": "https://www.design-a11y.com/design-system",
+    "machineMap": "contracts/pages/system-resource.json",
+    "evidenceScope": "Practical build plus live browser checks and captured-DOM engine review; direct live-route scans blocked; no conformance or efficiency claim"
+  }
+}
