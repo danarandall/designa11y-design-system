@@ -1,0 +1,132 @@
+{
+  "schemaVersion": "da.component-inventory.v1",
+  "updated": "2026-10-18",
+  "figmaFileKey": "YnhNUlEByax6x6ZY1YQL9e",
+  "status": "review",
+  "typography": {
+    "system": "Archivo",
+    "existingSquarespace": "Proxima Nova",
+    "heading": "Anton"
+  },
+  "components": [
+    {
+      "id": "da.actions.button",
+      "nodeId": "34:19",
+      "states": [
+        "Default",
+        "Hover",
+        "Pressed",
+        "Focus",
+        "Disabled",
+        "Loading"
+      ],
+      "semantics": "button",
+      "keyboard": [
+        "Enter",
+        "Space"
+      ],
+      "nameSource": "Label",
+      "loadingLabel": "Loading label"
+    },
+    {
+      "id": "da.actions.link",
+      "nodeId": "34:32",
+      "states": [
+        "Default",
+        "Hover",
+        "Pressed",
+        "Focus"
+      ],
+      "semantics": "a[href]",
+      "keyboard": [
+        "Enter"
+      ],
+      "nameSource": "Label"
+    },
+    {
+      "id": "da.actions.icon-button",
+      "nodeId": "37:54",
+      "states": [
+        "Default",
+        "Hover",
+        "Pressed",
+        "Focus",
+        "Disabled"
+      ],
+      "semantics": "button",
+      "keyboard": [
+        "Enter",
+        "Space"
+      ],
+      "nameSource": "Accessible name",
+      "iconProperty": "Icon",
+      "constraints": [
+        "Name must be reviewed whenever icon changes",
+        "Hidden Figma name metadata is not DOM content",
+        "Icon is aria-hidden inside named button"
+      ]
+    },
+    {
+      "id": "da.forms.text-field",
+      "nodeId": "38:71",
+      "axes": {
+        "Interaction": [
+          "Default",
+          "Hover",
+          "Focus",
+          "Disabled",
+          "ReadOnly"
+        ],
+        "Validation": [
+          "None",
+          "Error"
+        ]
+      },
+      "properties": [
+        "Label",
+        "Value",
+        "Helper text",
+        "Error message",
+        "Show helper"
+      ],
+      "semantics": "native input",
+      "nameSource": "Label via for/id",
+      "descriptionSources": [
+        "helper-text",
+        "error-message"
+      ],
+      "constraints": [
+        "Value is entered content, not placeholder",
+        "Set aria-invalid=true for error",
+        "Connect helper/error using aria-describedby",
+        "Readonly remains focusable; disabled uses native disabled",
+        "Input type, required and autocomplete must be defined per usage"
+      ]
+    }
+  ],
+  "focus": {
+    "nodeId": "17:7",
+    "strokeWidthPx": 2,
+    "bands": [
+      "Aubergine",
+      "Pearl gradient",
+      "Aubergine"
+    ],
+    "outsetPx": 11,
+    "contentGapPx": 5,
+    "forcedColors": "system outline",
+    "motion": "none"
+  },
+  "validation": {
+    "figmaStructure": "checked",
+    "visualSpecimens": "reviewed",
+    "runtime": "pending",
+    "assistiveTechnology": "pending",
+    "agentRetrievalEvaluation": "pending"
+  },
+  "reviews": {
+    "actions": "34:33",
+    "textFields": "38:139"
+  },
+  "source": "Original DesignA11y components; no Prime assets copied"
+}
