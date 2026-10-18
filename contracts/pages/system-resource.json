@@ -1,0 +1,71 @@
+{
+  "schemaVersion": "da.page.system-resource.v1",
+  "owner": "Dana Randall",
+  "updated": "2026-10-18",
+  "url": "https://www.design-a11y.com/design-system",
+  "status": "published-working-reference",
+  "figma": {
+    "pageId": "87:2",
+    "implementationSpec": "108:1116",
+    "reportSpec": "109:1116",
+    "foundationSpec": "12:2",
+    "resourcesSpec": "96:1063",
+    "featuredPair": "106:1103",
+    "focus": "17:7"
+  },
+  "implementation": "site/squarespace/design-system-page.html",
+  "promos": {
+    "home": "site/squarespace/home-system-feature.html",
+    "resources": "site/squarespace/resources-system-promo.html"
+  },
+  "navigation": [
+    "Toolkit",
+    "Resources",
+    "System",
+    "Articles"
+  ],
+  "repositoryAvailability": "public Specs and contracts; private working/deployment resources are separate",
+  "communityRelease": "planned-not-published",
+  "productionComponentMapping": "Squarespace shell plus original semantic HTML/CSS adapter; Code Connect unassigned",
+  "accessibility": {
+    "target": "WCAG 2.2 AA plus 44px house targets",
+    "liveEngineRoutesCompleted": 0,
+    "capturedStates": [
+      "desktop-resting",
+      "320px-resting"
+    ],
+    "liveBrowserChecks": [
+      "content-loaded",
+      "heading-structure",
+      "contrast-resting",
+      "target-geometry",
+      "focus",
+      "skip-link",
+      "menu-keyboard-Escape-return",
+      "menu-expanded-state",
+      "responsive-layout"
+    ],
+    "humanQueue": "docs/accessibility/MANUAL-TESTING.md",
+    "conformanceClaim": false
+  },
+  "report": "docs/research/system-self-build-report.md",
+  "evaluation": {
+    "type": "practical-case-study",
+    "controlledComparison": false,
+    "efficiencyImprovementClaim": false
+  },
+  "adapterDependencies": [
+    ".header-burger-btn",
+    ".header-menu-nav-list",
+    "body.header--menu-open"
+  ],
+  "attributionPolicy": [
+    "system or toolkit",
+    "consuming implementation",
+    "platform emitted markup",
+    "existing authored content/styles",
+    "validation harness/environment"
+  ],
+  "publicSpecs": "docs/specs/README.md",
+  "brandAdaptation": "docs/adapt-your-brand.md"
+}
