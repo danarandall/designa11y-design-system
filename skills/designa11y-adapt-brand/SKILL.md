@@ -44,6 +44,23 @@ Create a recoverable checkpoint or describe the available undo/version mechanism
 
 Record controlled exceptions such as logo geometry, fixed focus geometry and channel canvas dimensions. Image assets require their own art direction and replacement; palette changes do not recolor or regenerate them.
 
+## Nightjar QA regression requirements
+
+Read [adaptation-regression.md](references/adaptation-regression.md) before applying and before declaring completion. Inventory every page, component master, nested instance, raster fill, vector mark, background, animated artwork, example copy and source-specific destination.
+
+Apply a disposition to each brand asset and content group: replace, retain-approved, omit, or pending. Pending is a blocker to claiming complete adaptation. Treat historical source attribution and generic accessibility guidance separately from the new brand's example content.
+
+Use Brand · Content string variables for centrally bound sample copy and palette display names. Preserve semantic variable identifiers while changing display labels. Use shared Brand/Assets paint styles for matching raster backgrounds and shared component masters for marks. Inspect local instance overrides and detached copies; do not assume a master replacement reaches an override. Record image-hash matches as candidate duplicates, not proof of equivalent asset role.
+
+Ask explicitly for radius/control and radius/surface even when the source uses zero. Inspect four individual corner bindings; Figma may store cornerRadius assignments as topLeftRadius, topRightRadius, bottomLeftRadius and bottomRightRadius. Exclude approved fixed geometry such as full-page canvases, focus indicators, marks, glyphs and state mechanics.
+
+Review all Brand/Backgrounds, Motion social/video studies, Content/Editorial, Responsive templates and Site patterns/Resources pages. Replace source-specific copy, editorial titles, descriptions, authors, tags, captions, contact details, routes and examples coherently. Rewrite the new brand's art-direction guidance; palette replacement does not adapt a sensory-surface brief. Retain functional behavior guidance.
+
+For animated marks and motifs, use the host's motion capabilities to replace geometry and preserve or rebuild valid timelines. If that cannot be completed, label the study pending or omit it with approval; never declare animated artwork adapted because its static poster changed.
+
+Test long palette names and longer replacement copy at actual widths. Keep native Specs outside all design bounds with a 320px gutter and at least 240px separation. Recompute positions after text/style changes. Search all text and asset uses for source-brand remnants; classify every result, including retained attribution. Deliver the exception report alongside evidence.
+
+
 ## Validate and deliver
 
 Compare baseline and adapted instances from Actions, Forms, Navigation, Content, Feedback, Overlays and Data. Exercise relevant themes, interaction states, long copy, responsive widths, truncation, overflow and available fonts. Inspect alias resolution and unexpected overrides; report actual coverage and missing bindings.
