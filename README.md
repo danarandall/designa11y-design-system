@@ -1,6 +1,6 @@
 # DesignA11y Design System
 
-**v0.1.0-beta.1 · Public beta preparation.** Community publication is pending. This beta is an exploratory reference; adaptation, artwork, motion and broader state/theme validation remain incomplete.
+**v0.1.0-beta.1 · Public beta.** [Duplicate the Figma Community file](https://www.figma.com/community/file/1693787144054932231). This beta is an exploratory reference; adaptation, artwork, motion and broader state/theme validation remain incomplete.
 
 An evolving reference for design systems that humans and AI agents can understand, use and adapt to another brand.
 
@@ -21,7 +21,7 @@ An evolving reference for design systems that humans and AI agents can understan
 
 ## What is available
 
-Public Markdown Specs and JSON contracts describe foundations, component purpose, native Figma IDs, properties, states, composition, sensory surfaces, motion and accessibility acceptance criteria. The Specs can be read and adapted directly here; access to the working Figma file is not required. The Figma Community release remains planned. Working-file links are provenance and may require access.
+Public Markdown Specs and JSON contracts describe foundations, component purpose, native Figma IDs, properties, states, composition, sensory surfaces, motion and accessibility acceptance criteria. The Specs can be read and adapted directly here; access to the working Figma file is not required. The [Figma Community public beta](https://www.figma.com/community/file/1693787144054932231) is available. Working-file links are provenance and may require access.
 
 This is an active reference build. Representative component breadth exists in Figma, but production component mappings, comprehensive runtime validation, automatic token export/synchronization and complete alternate-brand inheritance are not yet delivered. Do not infer readiness from component counts. The inventory and individual Specs record pending checks.
 
