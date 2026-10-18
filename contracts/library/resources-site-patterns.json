@@ -1,0 +1,56 @@
+{
+  "id": "da.library.resources-site-patterns.v1",
+  "status": "source-aligned-draft",
+  "source": "https://www.design-a11y.com/designer-resources",
+  "figmaFileKey": "YnhNUlEByax6x6ZY1YQL9e",
+  "pageId": "87:2",
+  "specNodeId": "96:1063",
+  "specMirror": "docs/specs/resources-site-patterns.md",
+  "components": {
+    "Resources/Hero": "87:25",
+    "Resources/FeaturedToolkitPanel": "87:45",
+    "Resources/TopicJumps": "87:74",
+    "Resources/ResourceRow": "87:173",
+    "Resources/SystemPreviewCard": "87:214",
+    "Resources/FigureCaption": "88:48",
+    "Resources/ResourceGroup": "88:195",
+    "Resources/SystemShowcase": "88:280",
+    "Resources/FeaturedResourcePair": "106:1103"
+  },
+  "assemblies": {
+    "wide": "88:281",
+    "narrow": "88:436"
+  },
+  "sharedMasters": {
+    "header": "59:160",
+    "footer": "59:196",
+    "focus": "17:7"
+  },
+  "authority": {
+    "coreLiveSite": true,
+    "motionLabLayout": false,
+    "fullToolkit": "https://github.com/danarandall/ai-a11y-toolkit",
+    "primeRedistribution": false
+  },
+  "validation": {
+    "figmaWideNarrowVisualReview": true,
+    "fontFamilies": [
+      "Anton",
+      "Archivo"
+    ],
+    "liveMobileInteraction": false,
+    "runtimeKeyboardAT": false,
+    "publicationReady": false
+  },
+  "remaining": [
+    "representationTwoColumnLayout",
+    "inverseGradient",
+    "featuredBackdrop",
+    "publishableProviderPreviews",
+    "contextualRowShadow",
+    "runtimeAccessibilityVerification"
+  ],
+  "systemPageSpec": "108:1116",
+  "workflowReportSpec": "109:1116",
+  "publishedSystemPage": "https://www.design-a11y.com/design-system"
+}
