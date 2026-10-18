@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "da.system.release.v1",
+  "systemId": "org.designa11y.design-system",
+  "version": "0.1.0-alpha.1",
+  "status": "prerelease",
+  "figmaCommunityPublished": false,
+  "scope": "brand-adaptable Figma design system and public machine-readable contracts",
+  "figma": {
+    "fileKey": "YnhNUlEByax6x6ZY1YQL9e",
+    "cover": "113:71",
+    "thumbnail": "cover set via Figma UI",
+    "themeReview": "118:3",
+    "brandApplications": "121:2114",
+    "specs": {
+      "identity": "119:134",
+      "expression": "123:1319",
+      "release": "119:246",
+      "agent": "125:2"
+    }
+  },
+  "themeSources": {
+    "palette": "VariableCollectionId:4:2",
+    "semanticColor": "VariableCollectionId:4:3",
+    "typography": "VariableCollectionId:115:34",
+    "shape": "VariableCollectionId:116:2",
+    "effects": "VariableCollectionId:115:110",
+    "layout": "VariableCollectionId:8:2"
+  },
+  "validation": {
+    "eligibleTypographyNodesAudited": 984,
+    "componentSetsAudited": 87,
+    "sharedTextStylesCentrallyBound": 21,
+    "missingEligibleTypographyBindings": 0,
+    "representativeThemeInstances": [
+      "118:7",
+      "118:28",
+      "118:9",
+      "118:30",
+      "118:15",
+      "118:36"
+    ],
+    "referenceTextActionContrast": 11.9135,
+    "validationTextActionContrast": 8.5822,
+    "nativeCheckDesigns": "unavailable on current Pro plan; not run",
+    "wholeLibraryAllStateThemePass": false,
+    "communityDuplicateTransfer": "pending",
+    "runtimeConformanceClaim": false
+  },
+  "knownLimits": [
+    "Representative alternate-theme evidence does not establish every state/family/theme.",
+    "Existing raster imagery requires replacement or creative adaptation; color variables do not regenerate images.",
+    "Vector wordmarks remain authored assets; replace asset masters rather than regenerating logos from typography tokens.",
+    "Brand illustration, photography/casting and detailed voice/tone decisions need owner definition or not-applicable decisions.",
+    "Packaging and video examples are design studies, not production print or encoded-video deliverables.",
+    "Public adaptation agent is a contract and questionnaire; hosted execution is not deployed.",
+    "Figma native Specs/Git mirrors require explicit synchronization."
+  ],
+  "compatibility": {
+    "schemaVersionsSeparate": true,
+    "immutableReleaseSnapshot": "pending release freeze; current working alpha",
+    "breakingChanges": "migration notes and minor increment before 1.0; major increment after 1.0"
+  },
+  "publicEntry": "docs/specs/README.md",
+  "brandExpression": {
+    "page": "120:2",
+    "patternSets": [
+      "120:459"
+    ],
+    "patternMasters": [
+      "122:3817",
+      "122:3836"
+    ],
+    "applicationSets": [
+      "121:1068",
+      "121:2113"
+    ],
+    "packagingMaster": "121:1069"
+  },
+  "assetSlots": {
+    "primaryWordmark": "11:15",
+    "brandSymbol": "40:15",
+    "favicon": "11:16",
+    "frame": "44:55",
+    "surfaceFieldStatic": "43:485",
+    "pearlSurface": "46:14"
+  },
+  "colorArchitectureSpec": "128:2",
+  "adaptationDelivery": {
+    "format": "public skill",
+    "status": "packaging and duplicate-file acceptance test pending",
+    "pluginRequired": false
+  }
+}
