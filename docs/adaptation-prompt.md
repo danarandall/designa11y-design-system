@@ -35,11 +35,15 @@ Ask me a few related questions at a time. Reuse information I already gave you. 
 
 Produce a machine-readable brand profile. Mark choices approved, proposed, pending or not applicable. Present the proposed changes for my review before applying them, unless I already approved those choices.
 
-Apply approved choices through central variables, aliases, shared styles, Brand · Content string variables and shared image/mark masters. Discover names and IDs in my copy; source IDs may differ. Preserve component structure, variants, properties, accessibility requirements and functional meaning. New colors require new contrast checks. Palette changes do not regenerate raster artwork.
+Use my supplied profile and assets first. Research only a specific unresolved fact needed for the next decision; stop once answered. Record missing assets or permissions and continue independent approved work instead of expanding into open-ended research. Verify actual font rendering for each role, including monospace when requested.
+
+Apply approved choices through central variables, aliases, shared styles, Brand · Content string variables and shared image/mark masters. Preserve configurable text through component TEXT properties: bind central variables to property defaults and keep the layer’s component-property reference so distinct instance copy remains distinct. Discover names and IDs in my copy; source IDs may differ. Preserve component structure, variants, properties, accessibility requirements and functional meaning. New colors require new contrast checks. Palette changes do not regenerate raster artwork.
 
 Inventory every page and give each source-brand asset or content group a disposition: replace, retain-approved, omit or pending. Include backgrounds and their prompt guidance, logos and patterns, motion/social/video artwork, editorial placeholder images, author/content samples, responsive templates, resource patterns, routes and captions. Do not leave DesignA11y's mission or sensory art direction in my brand by default. Preserve truthful source attribution separately.
 
 Check inherited changes across component families, interaction states and responsive widths. Inspect all four corner binding fields; preserve approved fixed geometry such as focus indicators and page canvases. Test long palette names and replacement copy for clipping and awkward wrapping. Keep Specs clear of design frames. Check local overrides, raster fills, vector artwork and motion timelines as well as visible text.
+
+Read back changes in coherent batches and save a resumable checkpoint with approved choices, destination, changed IDs, completed checks, asset dispositions, blockers and next action. Check footer and card content growth after font or copy changes.
 
 Finish with links to changed designs, a change log, test evidence and every unresolved item. Distinguish Figma checks from runtime keyboard and assistive-technology testing. Do not call the adaptation complete while unresolved source-brand content remains. Do not publish the file or deploy a website automatically.
 ```
