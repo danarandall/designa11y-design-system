@@ -2,8 +2,8 @@
   "schemaVersion": "da.system.release.v1",
   "systemId": "org.designa11y.design-system",
   "version": "0.1.0-beta.1",
-  "status": "public-beta-preparation",
-  "figmaCommunityPublished": false,
+  "status": "public-beta",
+  "figmaCommunityPublished": true,
   "scope": "brand-adaptable Figma design system and public machine-readable contracts",
   "figma": {
     "fileKey": "YnhNUlEByax6x6ZY1YQL9e",
@@ -59,7 +59,7 @@
   ],
   "compatibility": {
     "schemaVersionsSeparate": true,
-    "immutableReleaseSnapshot": "publication snapshot pending",
+    "immutableReleaseSnapshot": "Figma Community resource 1693787144054932231; source and current main may evolve.",
     "breakingChanges": "migration notes and minor increment before 1.0; major increment after 1.0"
   },
   "publicEntry": "docs/adaptation-prompt.md",
@@ -91,5 +91,8 @@
     "format": "public skill",
     "status": "public experimental skill and no-install prompt available; complete fresh-copy acceptance pending",
     "pluginRequired": false
-  }
+  },
+  "communityUrl": "https://www.figma.com/community/file/1693787144054932231",
+  "publishedBy": "Dana Randall (individual creator)",
+  "publishedDate": "2026-10-18"
 }
