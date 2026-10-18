@@ -1,8 +1,14 @@
 # DesignA11y Design System
 
+**v0.1.0-beta.1 · Public beta preparation.** Community publication is pending. This beta is an exploratory reference; adaptation, artwork, motion and broader state/theme validation remain incomplete.
+
 An evolving reference for design systems that humans and AI agents can understand, use and adapt to another brand.
 
 ## Start here
+
+- [Copy the adaptation starter prompt](docs/adaptation-prompt.md)
+- [Install the experimental adaptation skill](skills/designa11y-adapt-brand)
+- [Release notes and known limits](docs/releases/0.1.0-beta.1.md)
 
 - [Adapt the system to your brand](docs/adapt-your-brand.md)
 - [Public Specs index](docs/specs/README.md)
