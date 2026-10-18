@@ -1,0 +1,196 @@
+{
+  "schemaVersion": "da.sensory-surface.v1.3",
+  "brand": "DesignA11y",
+  "status": "working-guidance",
+  "purpose": "Tactile visual expressions rooted in sensory support, bridging organic material and technology. Every generated image must serve a declared sensory role.",
+  "principles": [
+    "Choose a sensory function before choosing an aesthetic.",
+    "Compose a continuous tactile surface, field or material terrain. Material qualities alone do not make an isolated abstract object a brand surface.",
+    "Individual units may be visible, but they must aggregate into a coherent tactile field; crop and scale should imply continuation beyond the image.",
+    "Use light, texture, depth and rhythm intentionally; organic and technological expressions belong to one material vocabulary.",
+    "Technology is expressed through precision, repetition, microstructure and light; avoid generic futuristic imagery.",
+    "Preserve a quiet reading zone or place content on a separate solid surface.",
+    "Offer variation and choice; sensory preferences differ. Do not claim an image universally calms, regulates or treats anyone.",
+    "Static imagery does not authorize motion. Motion needs its own contract and static alternative.",
+    "Surfaces may be smooth, rough, spiky or mixed. Sensory support does not prescribe softness: choose texture by declared sensory intent and offer variation without assuming universal preferences.",
+    "Encourage variety from asset to asset. Glossy, matte, velvet, sanded and other intentional finishes are permitted; do not impose one default material treatment across the brand."
+  ],
+  "requiredBrief": {
+    "id": "stable descriptive asset ID",
+    "sensoryRole": "settle | orient | explore",
+    "sensoryIntent": "One plain-language sentence describing the intended experience without medical claims.",
+    "placement": "Named product, editorial, social or video placement",
+    "material": "Specific tactile material and its behavior under light",
+    "organicTechnologyBalance": "organic-led | balanced | technology-led",
+    "intensity": "quiet | moderate | expressive",
+    "detailDistribution": "Describe where detail concentrates and where it recedes",
+    "contentZone": "Named empty/quiet region, or separate solid content surface",
+    "palette": "Named brand anchors with exact hex values",
+    "lighting": "Direction, diffusion, highlight and contrast character",
+    "composition": "Focal hierarchy, negative space, camera/depth and crop requirements",
+    "aspectRatio": "Explicit ratio",
+    "responsiveCrops": "Required alternate ratios and protected regions",
+    "motion": "static by default; separate motion contract if requested",
+    "alternative": "Lower-detail or flatter companion when needed",
+    "exclusions": "Role-specific undesired content and artifacts",
+    "surfaceConstruction": "How the material forms a continuous plane, connected folds, packed bed or coherent terrain rather than an isolated object arrangement.",
+    "unitScaleAndDensity": "Size and density of repeated units relative to the frame; explain how the aggregate reads as a surface.",
+    "edgeBehavior": "How the material continues beyond the crop; avoid complete object silhouettes posed in empty space.",
+    "surfaceTexture": "smooth | rough | spiky | mixed; describe tactile quality, feature scale, density and transitions",
+    "surfaceFinish": "Open vocabulary: glossy, matte, velvet, sanded or another intentional finish; describe reflection, grain and light response."
+  },
+  "palette": {
+    "Aubergine": "#442A42",
+    "Blush": "#F4DDE7",
+    "Rose": "#D99AAE",
+    "Copper": "#E8B08F",
+    "Petal": "#FAF7F8"
+  },
+  "families": [
+    {
+      "id": "da.surface.pearl-veils",
+      "sourceNodeId": "1:24",
+      "name": "Soft blush pearl veils",
+      "role": "settle",
+      "intent": "Offer a gentle material atmosphere and visual breathing room.",
+      "balance": "organic-led",
+      "intensity": "quiet",
+      "material": "Soft translucent pearlescent folds; fine tactile grain; not jewelry.",
+      "detail": "Broad folds, diffused light and sparse highlights. Keep the content zone low-detail.",
+      "prompt": "Create a DesignA11y tactile sensory surface for {{placement}}, intended to offer gentle visual breathing room. A continuous edge-to-edge pearlescent material surface with broad organic folds that extend beyond the crop, delicate fine grain, diffused light, restrained depth. Palette: Blush #F4DDE7 and Petal #FAF7F8, subtle Rose #D99AAE; Copper #E8B08F only as a restrained reflected warmth if needed. Keep {{contentZone}} quiet with low local detail and soft tonal variation. Concentrate material definition in {{detailZone}}. Compose for {{aspectRatio}} and protect {{cropSafeRegion}}. Static, refined, editorial, original. No isolated objects, complete sculptural silhouettes, product still lifes, text, logos, interface, jewelry, literal pearls, hard glitter, sharp caustics, busy noise or unrelated objects."
+    },
+    {
+      "id": "da.surface.glass-ribbon",
+      "sourceNodeId": "1:26",
+      "name": "Glass ribbon",
+      "role": "orient",
+      "intent": "Use a controlled material gesture to guide the eye and connect parts of a composition.",
+      "balance": "balanced",
+      "intensity": "moderate",
+      "material": "A continuous translucent glass-like folded surface with flowing ribbon-like ridges; not a freestanding ribbon object.",
+      "detail": "One directional flow within a connected material field; close crop implies continuation beyond the image.",
+      "prompt": "Create a DesignA11y tactile sensory surface for {{placement}}, intended to guide the eye through a continuous material flow. Close-cropped translucent glass-like folds and ribbon-like ridges form one connected surface extending beyond every relevant edge, bridging organic movement and technological precision. No standalone ribbon sculpture. Aubergine #442A42 depth, restrained Copper #E8B08F grazing light, subtle Blush #F4DDE7 and Petal #FAF7F8 reflections. Direct the flow through {{detailZone}} while keeping {{contentZone}} quiet. Smooth tonal falloff and controlled highlights. Compose for {{aspectRatio}} and protect {{cropSafeRegion}}. Static, tactile, editorial. No isolated spheres, object arrangements, product still life, text, logos, UI, neon cyberpunk, circuitry, chrome clutter, sharp glare or blown highlights."
+    },
+    {
+      "id": "da.surface.corner-field",
+      "sourceNodeId": "1:25",
+      "name": "Copper-lit aubergine field",
+      "role": "explore",
+      "intent": "Invite optional close looking and sensory curiosity through coherent microstructure.",
+      "balance": "technology-led",
+      "intensity": "expressive",
+      "material": "Dense but ordered open-corner microgeometry with tactile depth and controlled luminous edges.",
+      "detail": "Texture concentrates below; distant structure softens into quiet Aubergine. Essential text stays separate.",
+      "prompt": "Create a DesignA11y tactile sensory field for {{placement}}, intended for optional close looking and sensory curiosity. A material landscape of tiny precise open L-shaped corner elements arranged as a coherent organic terrain, forming a connected densely repeated surface that continues beyond the crop, not scattered objects or random confetti. Aubergine #442A42 ground, Copper #E8B08F illumination, restrained Petal #FAF7F8 glints and subtle Blush #F4DDE7 reflection. Use grazing light, shallow depth transitions and a clear focal region in {{detailZone}}. Let the upper/distant field recede into quiet Aubergine; keep {{contentZone}} separate or genuinely low-detail. Compose for {{aspectRatio}} and {{cropSafeRegion}}. Static image only. No text, logos, complete brand symbols, UI, circuitry, server racks, sci-fi grids, neon cyan, glitter explosions, high-frequency interference, visual flicker or unrelated objects."
+    },
+    {
+      "id": "da.surface.sphere-bed",
+      "name": "Magnetic-sphere surface",
+      "role": "explore",
+      "intent": "Invite tactile curiosity through densely packed repetition and small-scale material detail.",
+      "balance": "balanced",
+      "intensity": "moderate",
+      "material": "Many small magnetic-bead-like spheres forming a dense connected bed or gently folded terrain.",
+      "detail": "Speks-like tactile aggregation is a structural reference; use original unbranded imagery. No single dominant sphere. Units meet and collectively read as a surface.",
+      "prompt": "Create an original DesignA11y tactile sensory surface for {{placement}}, intended for optional close looking. A macro view of hundreds of small, densely packed magnetic-bead-like spheres forms one coherent continuous material bed with subtle folds and shallow terrain. Think of the tactile aggregation of a magnetic-sphere fidget, not a product shot or branded replica. Individual beads remain small relative to the frame; no single hero sphere, no handful of floating balls. The packed material continues beyond the crop. Aubergine #442A42 shaded depth, restrained Copper #E8B08F and Rose #D99AAE reflections, soft Petal #FAF7F8 highlights. Controlled grazing light reveals contact and fine texture without sharp glare. Concentrate detail in {{detailZone}}, preserve quiet {{contentZone}}, compose for {{aspectRatio}} with {{cropSafeRegion}} protected. Static and editorial. No logos, text, packaging, isolated sculptures, freestanding glass ribbons, disconnected objects, glitter bursts or high-frequency interference."
+    }
+  ],
+  "automation": {
+    "steps": [
+      "Validate required brief fields; return missing fields before generation.",
+      "Validate surface construction: reject isolated objects even if their materials and palette fit. For repeated units, require enough small connected units to read as a continuous field.",
+      "Choose the closest family by sensory role and intended placement.",
+      "Expand placeholders using the brief; unresolved placeholders are an error.",
+      "Generate one role-specific image and retain the resolved prompt, model/version/settings when available, date and source references.",
+      "Review composition at output size and all required crops; reject outputs that lose quiet zones, hierarchy or motif integrity.",
+      "Check text contrast on the final composite or use a solid content surface; never infer contrast from palette alone.",
+      "Record human review, alternative-text decision, limitations and export variants."
+    ],
+    "rejectIf": [
+      "No sensory role declared",
+      "Brand content replaced by unrelated travel/lifestyle narrative",
+      "Unresolved placeholders",
+      "Essential copy baked into image",
+      "Competing detail in reading zone",
+      "Generic futuristic/cyberpunk substitution",
+      "Claim of therapeutic effect",
+      "Motion inferred from a still-image brief",
+      "Object-led still life or standalone abstract sculpture instead of a surface",
+      "One dominant sphere or a few floating spheres when the intended subject is a bead surface",
+      "Material does not continue beyond the crop and lacks coherent aggregation"
+    ],
+    "outputRecord": [
+      "id",
+      "sensoryRole",
+      "resolvedPrompt",
+      "generatorAndVersion",
+      "generationDate",
+      "sourceAssetIds",
+      "dimensions",
+      "cropVariants",
+      "contentZone",
+      "humanReviewStatus",
+      "contrastEvidenceIfText",
+      "alternativeTextDecision",
+      "limitations",
+      "surfaceTexture",
+      "surfaceFinish"
+    ]
+  },
+  "accessibility": {
+    "sensoryClaims": "Intent, not proven effect. No universal comfort or therapeutic claims.",
+    "decorative": "Empty alt in HTML when purely decorative.",
+    "informative": "Contextual alternative when conveying information.",
+    "color": "Do not communicate essential meaning through color alone.",
+    "motion": "Separate reduced-motion and playback requirements; static remains default.",
+    "evidence": "Generation prompts are not accessibility certification."
+  },
+  "compositionRule": {
+    "surfaceFirst": true,
+    "approved": [
+      "Macro material study",
+      "Continuous folded or flowing surface",
+      "Densely packed granular bed",
+      "Connected repeated microgeometry terrain"
+    ],
+    "reject": [
+      "Isolated hero sphere or small still-life grouping",
+      "Floating ribbon presented as a standalone sculpture",
+      "Decorative arrangement of glass, pearl and copper objects",
+      "Correct materials without a coherent surface construction"
+    ],
+    "negativeReference": {
+      "filename": "Design beyond the default.png",
+      "observation": "Hero contains a single pearlescent sphere, glass ribbon and copper object; lower field repeats a large spherical object. Materials are compatible, but object-led composition is rejected.",
+      "scope": "Image composition only; do not adopt the screenshot's old copy, eyebrow or layout."
+    }
+  },
+  "textureGuidance": {
+    "allowed": [
+      "smooth",
+      "rough",
+      "spiky",
+      "mixed"
+    ],
+    "selection": "Choose texture independently from sensory role, material, palette and organic/technology balance. Smooth is not the only acceptable sensory expression; rough or spiky is not automatically excessive.",
+    "control": [
+      "Specify feature scale, spacing, density, sharpness and highlight behavior.",
+      "Keep repeated texture coherent as a continuous surface or terrain.",
+      "Review visual intensity at final size; dense sharp detail can compete with reading zones.",
+      "Provide a quieter or lower-detail companion where needed; do not claim any texture is universally calming or uncomfortable."
+    ],
+    "promptClause": "Surface texture: {{surfaceTexture}}. Describe {{textureScale}}, {{textureDensity}} and {{textureTransitions}} explicitly. Maintain a coherent continuous material field; preserve {{contentZone}} and control highlights for the intended sensory intensity.",
+    "finishGuidance": {
+      "examples": [
+        "glossy",
+        "matte",
+        "velvet",
+        "sanded"
+      ],
+      "closedVocabulary": false,
+      "distinction": "Texture describes surface structure; finish describes material and light response. Combine intentionally, for example rough matte, smooth glossy, spiky velvet-like or finely sanded.",
+      "assetVariety": "Variety is encouraged from asset to asset. Maintain coherence through sensory purpose, surface construction, brand palette and composition rather than identical texture or finish.",
+      "promptClause": "Finish: {{surfaceFinish}}. Specify its reflection, grain and light response. Choose a treatment appropriate to this asset; do not repeat a previous asset's finish by default."
+    }
+  }
+}
