@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "da.motion.v1",
+  "status": "review",
+  "fileKey": "YnhNUlEByax6x6ZY1YQL9e",
+  "nodes": {
+    "motionPage": "43:2",
+    "motionGuide": "43:78",
+    "seamStatic": "43:3",
+    "seamTimedStudy": "43:158",
+    "fieldStatic": "43:485",
+    "socialSquare": "43:491",
+    "identityRelationship": "44:61",
+    "frame": "44:55"
+  },
+  "relationship": "Frame encloses; seam dissolves the edge into open corners; surface field repeats corner geometry as luminous material.",
+  "source": {
+    "url": "https://www.design-a11y.com/",
+    "inspected": "2026-10-18",
+    "implementation": "Custom SVG seam and Canvas2D field; not verified as a third-party particle library"
+  },
+  "seam": {
+    "color": "Aubergine",
+    "fragmentCount": 73,
+    "seed": 493,
+    "heightDesktopPx": 88,
+    "heightMobilePx": 64,
+    "webInteraction": {
+      "finePointerOnly": true,
+      "radiusPx": 96,
+      "maxDisplacementPx": 5.5,
+      "maxRotationDeg": 5,
+      "transitionMs": 130
+    },
+    "reducedMotion": "static",
+    "figma": "Scripted response and return; simplified rule, not live pointer engine"
+  },
+  "field": {
+    "staticBase": "Copper-lit aubergine landscape",
+    "liveSelector": ".da-corner-seam--feature canvas.da-luminous-field",
+    "seed": 827,
+    "candidateGrains": 6200,
+    "responseRadiusPx": 220,
+    "maxDisplacementPx": {
+      "x": 34,
+      "y": 24
+    },
+    "lightResponseMs": 150,
+    "dprCap": 1.5,
+    "skipParticlesFor": [
+      "reduced motion",
+      "reduced transparency",
+      "more contrast",
+      "forced colors"
+    ],
+    "touch": "ignored",
+    "performance": [
+      "Stop offscreen",
+      "Stop when document hidden",
+      "No perpetual animation loop"
+    ],
+    "figma": "Static raster base only; Canvas simulation not ported"
+  },
+  "accessibility": {
+    "role": "optional decorative sensory play",
+    "essentialContent": "on solid reading surfaces",
+    "explanation": "outside aria-hidden host",
+    "figmaPreferenceHandling": "manual static alternative; timeline does not automatically implement OS preferences"
+  },
+  "video": {
+    "composition": "1080 square",
+    "keyframes": "authored",
+    "exportJob": "completed with download URL",
+    "renderValidation": "not verified; downloaded response could not be decoded as MP4"
+  },
+  "connection": {
+    "automaticSync": false,
+    "codeLayerCreated": false
+  },
+  "next": "A runnable Code Layer can preserve pointer-driven algorithm after choosing that output."
+}
