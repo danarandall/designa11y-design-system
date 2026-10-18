@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "da.forms.selection-multiline.v1",
+  "status": "design-draft-runtime-unvalidated",
+  "fileKey": "YnhNUlEByax6x6ZY1YQL9e",
+  "specNode": "54:220",
+  "components": [
+    {
+      "id": "da.forms.checkbox",
+      "node": "53:122",
+      "variants": 12,
+      "semantics": "Native checkbox; indeterminate property for mixed"
+    },
+    {
+      "id": "da.forms.radio",
+      "node": "53:159",
+      "variants": 8,
+      "semantics": "Same-name native radio inputs with labelled group"
+    },
+    {
+      "id": "da.forms.switch",
+      "node": "53:200",
+      "variants": 8,
+      "semantics": "Tested switch primitive or button role=switch with aria-checked; stable label"
+    },
+    {
+      "id": "da.forms.textarea",
+      "node": "54:87",
+      "variants": 10,
+      "semantics": "Native textarea, visible label and associated helper/errors",
+      "initialControlMinHeight": 144
+    }
+  ],
+  "interaction": [
+    "Default",
+    "Hover",
+    "Focus",
+    "Disabled"
+  ],
+  "minimumTarget": 44,
+  "label": "Visible wrapping native TEXT property",
+  "focus": {
+    "master": "17:7",
+    "outset": 11,
+    "gap": 5,
+    "static": true
+  },
+  "motionContract": "contracts/motion/interface-microinteractions.json",
+  "pending": [
+    "runtime keyboard and assistive technology",
+    "dark theme and forced colors",
+    "320px and enlarged-text reflow",
+    "group validation and error compositions",
+    "production mapping",
+    "motion implementation and interruption"
+  ],
+  "source": "Original DesignA11y; no Prime assets"
+}
