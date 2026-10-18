@@ -1,0 +1,632 @@
+{
+  "schemaVersion": "da.adaptation-remediation.v1",
+  "systemVersion": "0.1.0-alpha.1",
+  "revision": "nightjar-qa-remediation-1",
+  "status": "master-fixes-implemented-fresh-copy-regression-pending",
+  "sourceFileKey": "YnhNUlEByax6x6ZY1YQL9e",
+  "idPolicy": "Source IDs are audit references. Discover destination collections, variables, styles and component masters by exact names and resolve duplicates; never assume copied IDs.",
+  "content": {
+    "collection": "Brand · Content",
+    "sourceCollectionId": "VariableCollectionId:131:1702",
+    "variables": [
+      {
+        "id": "VariableID:131:3930",
+        "name": "content/category/61-6",
+        "source": "DESIGN SYSTEMS"
+      },
+      {
+        "id": "VariableID:131:3931",
+        "name": "content/title/61-7",
+        "source": "Figma Specs: accessibility in the instructions agents build from"
+      },
+      {
+        "id": "VariableID:131:3932",
+        "name": "content/summary/61-8",
+        "source": "Connect design intent, component behavior and the evidence agents need."
+      },
+      {
+        "id": "VariableID:131:3933",
+        "name": "content/metadata/61-9",
+        "source": "Dana Randall · 6 min read"
+      },
+      {
+        "id": "VariableID:131:3934",
+        "name": "content/type/61-35",
+        "source": "TOOLKIT"
+      },
+      {
+        "id": "VariableID:131:3935",
+        "name": "content/title/61-36",
+        "source": "AI A11y Toolkit"
+      },
+      {
+        "id": "VariableID:131:3936",
+        "name": "content/summary/61-37",
+        "source": "Accessibility guidance for AI-assisted design and development."
+      },
+      {
+        "id": "VariableID:131:3937",
+        "name": "content/label/61-39",
+        "source": "Explore the toolkit"
+      },
+      {
+        "id": "VariableID:131:3938",
+        "name": "content/label/61-61",
+        "source": "Download guide · PDF"
+      },
+      {
+        "id": "VariableID:131:3939",
+        "name": "content/label/61-66",
+        "source": "FEATURED PERSPECTIVE"
+      },
+      {
+        "id": "VariableID:131:3940",
+        "name": "content/title/61-67",
+        "source": "Design beyond the default."
+      },
+      {
+        "id": "VariableID:131:3941",
+        "name": "content/summary/61-68",
+        "source": "Explore the decisions that make technology work for more people."
+      },
+      {
+        "id": "VariableID:131:3942",
+        "name": "content/label/61-70",
+        "source": "Read the perspective"
+      },
+      {
+        "id": "VariableID:131:3943",
+        "name": "content/name/61-81",
+        "source": "Dana Randall"
+      },
+      {
+        "id": "VariableID:131:3944",
+        "name": "content/role/61-82",
+        "source": "Inclusive design, accessibility and AI"
+      },
+      {
+        "id": "VariableID:131:3945",
+        "name": "content/bio/61-86",
+        "source": "Exploring how design decisions shape participation, agency and human experience."
+      },
+      {
+        "id": "VariableID:131:3946",
+        "name": "content/metadata/61-89",
+        "source": "October 18, 2026 · 6 min read"
+      },
+      {
+        "id": "VariableID:131:3947",
+        "name": "content/label/61-95",
+        "source": "How should I use this guidance?"
+      },
+      {
+        "id": "VariableID:131:3948",
+        "name": "content/content/61-103",
+        "source": "Start with your users and task. Apply the relevant guidance, then verify the result with evidence and human review."
+      },
+      {
+        "id": "VariableID:131:3949",
+        "name": "content/title/61-120",
+        "source": "Motion and interaction guidance"
+      },
+      {
+        "id": "VariableID:131:3950",
+        "name": "content/description/61-121",
+        "source": "Practical considerations for intentional interface feedback."
+      },
+      {
+        "id": "VariableID:131:3951",
+        "name": "content/selection/61-135",
+        "source": "Selected"
+      },
+      {
+        "id": "VariableID:131:3952",
+        "name": "content/quote/61-138",
+        "source": "Design decisions shape who can participate."
+      },
+      {
+        "id": "VariableID:131:3953",
+        "name": "content/attribution/61-139",
+        "source": "Editorial example · Replace with a verified source"
+      },
+      {
+        "id": "VariableID:131:3954",
+        "name": "content/plan/61-145",
+        "source": "Community resources"
+      },
+      {
+        "id": "VariableID:131:3955",
+        "name": "content/price/61-146",
+        "source": "Free"
+      },
+      {
+        "id": "VariableID:131:3956",
+        "name": "content/terms/61-147",
+        "source": "Illustrative pattern · No payment required"
+      },
+      {
+        "id": "VariableID:131:3957",
+        "name": "content/features/61-148",
+        "source": "Practical guides\nOpen toolkit resources\nCommunity learning"
+      },
+      {
+        "id": "VariableID:131:3958",
+        "name": "content/label/61-150",
+        "source": "Explore resources"
+      },
+      {
+        "id": "VariableID:131:3959",
+        "name": "content/availability/61-163",
+        "source": "Currently unavailable"
+      },
+      {
+        "id": "VariableID:131:3960",
+        "name": "content/rating/61-166",
+        "source": "4 of 5 · Helpfulness"
+      },
+      {
+        "id": "VariableID:131:3961",
+        "name": "content/review/61-167",
+        "source": "Sample review content for layout testing. Replace with verified, consented feedback."
+      },
+      {
+        "id": "VariableID:131:3962",
+        "name": "content/attribution/61-171",
+        "source": "Reviewer name · Date · Verification status"
+      },
+      {
+        "id": "VariableID:131:3963",
+        "name": "content/heading/61-174",
+        "source": "Make the decision explicit"
+      },
+      {
+        "id": "VariableID:131:3964",
+        "name": "content/body/61-175",
+        "source": "A useful specification explains the purpose of a component, how people operate it, and what evidence supports its behavior. Keep accessibility intent close to the work agents reuse."
+      },
+      {
+        "id": "VariableID:131:3965",
+        "name": "content/callout/61-177",
+        "source": "Intent is documented. Behavior still needs verification."
+      },
+      {
+        "id": "VariableID:131:3966",
+        "name": "content/intro/68-33",
+        "source": "Inclusive design, accessibility and AI."
+      },
+      {
+        "id": "VariableID:131:3967",
+        "name": "content/featured-title/68-40",
+        "source": "Featured perspective"
+      },
+      {
+        "id": "VariableID:131:3968",
+        "name": "content/latest-title/68-49",
+        "source": "More perspectives"
+      },
+      {
+        "id": "VariableID:131:3969",
+        "name": "content/latest-content/68-50",
+        "source": "Different articles follow the featured story. Never duplicate its destination here."
+      },
+      {
+        "id": "VariableID:131:3970",
+        "name": "content/title/68-112",
+        "source": "Figma Specs and accessible design systems"
+      },
+      {
+        "id": "VariableID:131:3971",
+        "name": "content/related/68-123",
+        "source": "Related resources"
+      },
+      {
+        "id": "VariableID:131:3972",
+        "name": "content/intro/68-152",
+        "source": "Choose the guidance relevant to your task, then verify the result."
+      },
+      {
+        "id": "VariableID:131:3973",
+        "name": "content/section/68-153",
+        "source": "Design and interaction"
+      },
+      {
+        "id": "VariableID:131:3974",
+        "name": "content/section/68-155",
+        "source": "Engineering and implementation"
+      },
+      {
+        "id": "VariableID:131:3975",
+        "name": "content/section/68-157",
+        "source": "Content and language"
+      },
+      {
+        "id": "VariableID:131:3976",
+        "name": "content/section/68-159",
+        "source": "Testing and evidence"
+      },
+      {
+        "id": "VariableID:131:3977",
+        "name": "content/title/68-186",
+        "source": "Search DesignA11y"
+      },
+      {
+        "id": "VariableID:131:3978",
+        "name": "content/title/68-241",
+        "source": "Experience preferences"
+      },
+      {
+        "id": "VariableID:131:3979",
+        "name": "content/summary/68-259",
+        "source": "Error: Review the email address below."
+      },
+      {
+        "id": "VariableID:131:3980",
+        "name": "content/success/68-277",
+        "source": "Your preferences have been saved."
+      },
+      {
+        "id": "VariableID:131:3981",
+        "name": "content/title/68-280",
+        "source": "Motion Lab"
+      },
+      {
+        "id": "VariableID:131:3982",
+        "name": "content/intro/68-281",
+        "source": "Explore the behavior, purpose and alternatives behind interface feedback."
+      },
+      {
+        "id": "VariableID:131:3983",
+        "name": "content/demo-title/68-282",
+        "source": "Switch state feedback"
+      },
+      {
+        "id": "VariableID:131:3984",
+        "name": "content/guidance/68-287",
+        "source": "Intentional state transition: 140ms proposed thumb travel. No autonomous loop."
+      },
+      {
+        "id": "VariableID:131:3985",
+        "name": "content/spec/68-290",
+        "source": "Purpose · Trigger · Parameters · Interruption · Preferences · Evidence"
+      },
+      {
+        "id": "VariableID:131:3986",
+        "name": "content/guidance/68-299",
+        "source": "Static mode: state changes immediately, with no thumb travel."
+      },
+      {
+        "id": "VariableID:131:3987",
+        "name": "content/eyebrow/87-11",
+        "source": "Open practice / Tools & skills"
+      },
+      {
+        "id": "VariableID:131:3988",
+        "name": "content/title/87-12",
+        "source": "Tools for\ninclusive design."
+      },
+      {
+        "id": "VariableID:131:3989",
+        "name": "content/deck/87-13",
+        "source": "A considered collection for inclusive design, accessibility, and working with AI."
+      },
+      {
+        "id": "VariableID:131:3990",
+        "name": "content/eyebrow/87-29",
+        "source": "Start here · Open source"
+      },
+      {
+        "id": "VariableID:131:3991",
+        "name": "content/body/87-32",
+        "source": "Bring accessibility requirements into AI-assisted design and development. Guidance you can carry into your tools, prompts, and project workflows."
+      },
+      {
+        "id": "VariableID:131:3992",
+        "name": "content/cta/87-33",
+        "source": "Explore the AI A11y Toolkit ⌝"
+      },
+      {
+        "id": "VariableID:131:3993",
+        "name": "content/note/87-34",
+        "source": "Use it as a starting point. Generated work still needs testing with people and assistive technology."
+      },
+      {
+        "id": "VariableID:131:3994",
+        "name": "content/label/87-49",
+        "source": "AI & design workflows"
+      },
+      {
+        "id": "VariableID:131:3995",
+        "name": "content/label/87-51",
+        "source": "Design systems"
+      },
+      {
+        "id": "VariableID:131:3996",
+        "name": "content/label/87-53",
+        "source": "Build & test"
+      },
+      {
+        "id": "VariableID:131:3997",
+        "name": "content/label/87-56",
+        "source": "Content & creators"
+      },
+      {
+        "id": "VariableID:131:3998",
+        "name": "content/label/87-58",
+        "source": "Motion"
+      },
+      {
+        "id": "VariableID:131:3999",
+        "name": "content/label/87-60",
+        "source": "Inclusive practice"
+      },
+      {
+        "id": "VariableID:131:4000",
+        "name": "content/kind/87-79",
+        "source": "Official guide"
+      },
+      {
+        "id": "VariableID:131:4001",
+        "name": "content/title/87-88",
+        "source": "Figma MCP server ⌝"
+      },
+      {
+        "id": "VariableID:131:4002",
+        "name": "content/description/87-90",
+        "source": "Bring structured design context into an AI coding workflow. Pair it with explicit accessibility requirements and verify the output."
+      },
+      {
+        "id": "VariableID:131:4003",
+        "name": "content/preview-label/87-176",
+        "source": "Provider preview"
+      },
+      {
+        "id": "VariableID:131:4004",
+        "name": "content/preview-note/87-177",
+        "source": "Contained image · 16:10\nUse a rights-cleared source asset."
+      },
+      {
+        "id": "VariableID:131:4005",
+        "name": "content/kind/87-179",
+        "source": "Open source · Design system"
+      },
+      {
+        "id": "VariableID:131:4006",
+        "name": "content/title/87-180",
+        "source": "Adobe Spectrum ⌝"
+      },
+      {
+        "id": "VariableID:131:4007",
+        "name": "content/description/87-181",
+        "source": "Explore components, tokens and platform guidance. Accessibility is part of the system; implementation and content still need testing."
+      },
+      {
+        "id": "VariableID:131:4008",
+        "name": "content/credit/87-182",
+        "source": "Preview: Adobe · View resource"
+      },
+      {
+        "id": "VariableID:131:4009",
+        "name": "content/asset-slot/88-40",
+        "source": "Contextual preview image"
+      },
+      {
+        "id": "VariableID:131:4010",
+        "name": "content/asset-instruction/88-41",
+        "source": "Preserve image proportions and use an approved, attributed source."
+      },
+      {
+        "id": "VariableID:131:4011",
+        "name": "content/caption/88-42",
+        "source": "Inside Figma: notes and accessibility categories attached to the design. Image: Figma."
+      },
+      {
+        "id": "VariableID:131:4012",
+        "name": "content/eyebrow/88-197",
+        "source": "Design & build / Starting points"
+      },
+      {
+        "id": "VariableID:131:4013",
+        "name": "content/title/88-198",
+        "source": "See the system."
+      },
+      {
+        "id": "VariableID:131:4014",
+        "name": "content/intro/88-199",
+        "source": "Explore the visual language and the behavior behind it. Open-source systems and commercial libraries with documented accessibility foundations."
+      },
+      {
+        "id": "VariableID:131:4015",
+        "name": "content/note/88-238",
+        "source": "These are starting points, not accessibility certifications. Check licensing, keyboard behavior, focus, contrast and assistive technology support in your own implementation."
+      },
+      {
+        "id": "VariableID:131:4016",
+        "name": "content/content-headline/43-505",
+        "source": "DESIGN BEYOND\nTHE DEFAULT."
+      },
+      {
+        "id": "VariableID:131:4017",
+        "name": "content/content-description/43-506",
+        "source": "Inclusive design, accessibility, and AI."
+      },
+      {
+        "id": "VariableID:131:4018",
+        "name": "palette/aubergine/name",
+        "source": "Aubergine"
+      },
+      {
+        "id": "VariableID:131:4019",
+        "name": "palette/blush/name",
+        "source": "Blush"
+      },
+      {
+        "id": "VariableID:131:4020",
+        "name": "palette/rose/name",
+        "source": "Rose"
+      },
+      {
+        "id": "VariableID:131:4021",
+        "name": "palette/copper/name",
+        "source": "Copper"
+      },
+      {
+        "id": "VariableID:131:4022",
+        "name": "palette/petal/name",
+        "source": "Petal"
+      },
+      {
+        "id": "VariableID:134:3955",
+        "name": "content/brand-headline/121-386",
+        "source": "Design beyond\nthe default."
+      },
+      {
+        "id": "VariableID:134:3956",
+        "name": "content/brand-supporting-copy/121-387",
+        "source": "Inclusive design. Accessibility.\nA more intentional practice with AI."
+      },
+      {
+        "id": "VariableID:134:3957",
+        "name": "content/brand-headline/121-1083",
+        "source": "Ideas into\ninclusive practice."
+      },
+      {
+        "id": "VariableID:134:3958",
+        "name": "content/brand-supporting-copy/121-1084",
+        "source": "DesignA11y\nA practice kit for people designing with AI."
+      },
+      {
+        "id": "VariableID:134:3959",
+        "name": "content/brand-supporting-copy/121-1432",
+        "source": "DESIGNA11Y / INCLUSIVE DESIGN + AI"
+      },
+      {
+        "id": "VariableID:134:3960",
+        "name": "content/brand-headline/121-1779",
+        "source": "Keep the intent."
+      },
+      {
+        "id": "VariableID:134:3961",
+        "name": "content/brand-supporting-copy/121-1780",
+        "source": "Explore inclusive design and AI.\ndesign-a11y.com"
+      }
+    ]
+  },
+  "assets": [
+    {
+      "styleId": "S:7c2c2f2ed5084d7cf023b4d4ae3c5f17589345ae,",
+      "name": "Brand/Assets/Surface/Settle",
+      "sourceNodeId": "46:15",
+      "imageHash": "8e3a275112f32f5c7d4d39621ce2e8c555258bc1"
+    },
+    {
+      "styleId": "S:8a44a88e6feccdd5c1cf494dfddcd0762b810c0a,",
+      "name": "Brand/Assets/Surface/Orient",
+      "sourceNodeId": "46:24",
+      "imageHash": "668278eab88ee697a63a34ac6a075a122522eb98"
+    },
+    {
+      "styleId": "S:d3603bcaec417ee2c6076f183dae36459c86126c,",
+      "name": "Brand/Assets/Surface/Explore",
+      "sourceNodeId": "46:33",
+      "imageHash": "26d4f3a823d750dbb4524c5e599b35becfaf1246"
+    },
+    {
+      "styleId": "S:423a0994a8370bdabb0a17f445c05d2e5bb50dc4,",
+      "name": "Brand/Assets/SurfaceField/Static",
+      "sourceNodeId": "43:486",
+      "imageHash": "26d4f3a823d750dbb4524c5e599b35becfaf1246"
+    }
+  ],
+  "vectorSlots": [
+    {
+      "role": "wordmark",
+      "sourceMasterId": "11:15"
+    },
+    {
+      "role": "symbol",
+      "sourceMasterId": "40:15"
+    },
+    {
+      "role": "favicon",
+      "sourceMasterId": "11:16"
+    },
+    {
+      "role": "frame",
+      "sourceMasterId": "44:55"
+    },
+    {
+      "role": "seam-static",
+      "sourceMasterId": "43:3"
+    },
+    {
+      "role": "seam-timed",
+      "sourceMasterId": "43:158"
+    },
+    {
+      "role": "social-seam-timed",
+      "sourceMasterId": "43:507"
+    }
+  ],
+  "shape": {
+    "collection": "Brand · Shape",
+    "roles": [
+      "radius/control",
+      "radius/surface"
+    ],
+    "bindings": [
+      "topLeftRadius",
+      "topRightRadius",
+      "bottomLeftRadius",
+      "bottomRightRadius"
+    ],
+    "fixedGeometry": [
+      "page canvases",
+      "focus indicator",
+      "logo and motif geometry",
+      "glyphs",
+      "approved state mechanics"
+    ]
+  },
+  "dispositions": [
+    "replace",
+    "retain-approved",
+    "omit",
+    "pending"
+  ],
+  "completionRule": "Every source-brand occurrence must be classified; pending prevents complete adaptation claim.",
+  "requiredPages": [
+    "Brand / Backgrounds",
+    "Foundations / Motion",
+    "Content & editorial",
+    "Responsive templates",
+    "Site patterns / Resources",
+    "Brand / Expression & applications"
+  ],
+  "evidence": {
+    "paletteNameStress": {
+      "width": 254,
+      "result": "5 of 5 names fit using natural two-line wrapping",
+      "sourceDefaultsUnchanged": true,
+      "nodeId": "134:30"
+    },
+    "representativeRadii": {
+      "control": [
+        0,
+        8
+      ],
+      "surface": [
+        0,
+        8
+      ],
+      "nodeIds": [
+        "118:7",
+        "118:28",
+        "118:15",
+        "118:36"
+      ]
+    },
+    "nativeRegressionSpec": "134:36",
+    "wholeLibraryPass": false,
+    "freshDuplicatePass": false
+  }
+}
