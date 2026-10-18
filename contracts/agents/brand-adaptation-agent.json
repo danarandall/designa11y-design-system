@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "da.brand-adaptation-agent.v1",
+  "status": "design brief; not an implemented autonomous service",
+  "purpose": "Interview a brand owner, apply a central theme to a distributable copy of the DesignA11y system and Figma file, and retain accessibility contracts.",
+  "questionnaire": {
+    "context": [
+      "brand name, mission and intention",
+      "audiences, access needs and contexts of use",
+      "product purpose and key tasks",
+      "voice, content domains, languages and tone",
+      "existing identity assets, rights and non-negotiable choices"
+    ],
+    "aesthetic": [
+      "visual personality and reference examples with specific likes/dislikes",
+      "palette anchors, semantic roles and light/dark needs",
+      "type families, licensing, hierarchy, weights, density and reading metrics",
+      "corner radius scale and intentional fixed geometry",
+      "border widths, line style and icon language",
+      "gradient stops, angle, intensity and reading-zone constraints",
+      "shadow, elevation, depth and surface treatment",
+      "spacing, layout density and composition",
+      "interaction character, timing and preference alternatives"
+    ],
+    "imagery": [
+      "photography versus illustration, abstract surfaces or mixed media",
+      "image style references, desired meaning and excluded tropes",
+      "background references and relationship to brand mission",
+      "texture, finish, feature scale, density and sensory intensity",
+      "whether tactile/sensory surfaces fit this brand at all",
+      "quiet reading zones, contrast, crop and responsive behavior",
+      "representational inclusion, alt purpose, copyright and consent"
+    ]
+  },
+  "workflow": [
+    "Retrieve current public Specs, contracts and token/style inventory.",
+    "Interview in short stages, distinguishing required questions from safe defaults.",
+    "Produce a reviewable brand profile and theme mapping with explicit accessibility conflicts.",
+    "Create a separate copy; preserve the original DesignA11y reference.",
+    "Apply primitives/semantic aliases/shared styles centrally; preserve master-instance relationships.",
+    "Update copy-specific Specs, examples and agent guidance to the new brand context.",
+    "Validate inheritance with a second-theme change and audit unsupported fields and literals.",
+    "Run relevant full AI A11y Toolkit references, visual and manual/AT checks; document unresolved findings.",
+    "Deliver Figma copy, theme profile, token export, mappings, validation evidence."
+  ],
+  "inheritedRequirements": [
+    "semantics and keyboard operation",
+    "visible focus and unobscured focus",
+    "text and non-text contrast targets, revalidated after theming",
+    "content reflow and text scaling",
+    "target sizes and touch/keyboard parity",
+    "error and status communication",
+    "reduced motion and static alternatives",
+    "sensory role assessment without universal comfort or health claims"
+  ],
+  "acceptance": [
+    "Brand questionnaire covers all style domains and context.",
+    "Theme changes propagate without individual component edits.",
+    "No licensed/private materials are copied.",
+    "New brand has its own POV; DesignA11y sensory aesthetics are optional rather than universal.",
+    "Accessibility requirements remain; actual resulting experience is revalidated.",
+    "Provenance is transparent, documented and does not phone home."
+  ]
+}
