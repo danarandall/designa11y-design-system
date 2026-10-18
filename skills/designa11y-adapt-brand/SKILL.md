@@ -38,6 +38,21 @@ Produce a machine-readable brand profile with schemaVersion, sourceSystemVersion
 
 Show a concise proposed change list and unresolved choices. Obtain approval for the concrete brand profile before applying identity changes, unless the user has already approved those exact choices. Do not repeatedly request approval for authorized application steps.
 
+## Keep the adaptation moving
+
+Use the supplied brand profile, approved tokens, embedded Specs and provided assets as the starting sources. Do not expand a rebrand into an open-ended website, licensing or image search. Research only a specific unresolved decision, using an authoritative source when verification is required. Stop that search when the answer is sufficient; if it remains unresolved, record the uncertainty and continue independent authorized changes. Do not repeatedly reverify the same URL or asset.
+
+Separate font availability from correct rendering and permission to use it. Verify each applied font role, including monospace roles when requested, in actual layers with representative text. A font listed by the host is not a render or licensing pass.
+
+Preserve component property APIs. Before binding text, inspect componentPropertyReferences and the owning component/set's TEXT properties. For configurable content, bind the central STRING variable to the component property's defaultValue and keep the text layer's characters reference to that property. Direct characters binding can clear the component-property reference and hide instance overrides. Use direct text binding only for intentionally non-configurable copy. Snapshot property names, types, variant counts and representative instance values before and after; verify visually that differently configured instances remain different.
+
+Apply in small coherent batches: central theme, component defaults, sample-copy overrides, assets, motion, then layout/state review. Do not mark a batch complete until its changes are read back. Reflow footer, navigation, card and caption containers for changed fonts and longer copy; inspect actual bounds, clipping and stacking order rather than assuming a color/token check covers layout.
+
+Keep a resumable checkpoint outside workflow-only metadata on design nodes. Record source revision, destination file, approved profile, current stage, changed IDs, completed checks, asset dispositions, blockers and the next concrete action. Read back and parse structured checkpoints. Report partial completion plainly; continue independent work instead of treating a missing image or research answer as a reason to abandon the whole adaptation.
+
+Do not print the full profile or checkpoint after every batch. Give concise progress and link to the saved record. Evidence from an incomplete test supports only the checks actually observed.
+
+
 ## Apply
 
 Create a recoverable checkpoint or describe the available undo/version mechanism. Apply approved central palette variables and semantic aliases, typography variables/styles, shape and effect sources, and composite gradient styles. Preserve semantic names, component properties, variants, states, auto-layout and nested instances. Replace marks and imagery through shared asset masters where possible. Do not regenerate a wordmark by changing its font, detach instances to recolor them, or scatter raw values across component instances.
