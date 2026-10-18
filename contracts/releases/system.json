@@ -1,8 +1,8 @@
 {
   "schemaVersion": "da.system.release.v1",
   "systemId": "org.designa11y.design-system",
-  "version": "0.1.0-alpha.1",
-  "status": "prerelease",
+  "version": "0.1.0-beta.1",
+  "status": "public-beta-preparation",
   "figmaCommunityPublished": false,
   "scope": "brand-adaptable Figma design system and public machine-readable contracts",
   "figma": {
@@ -15,7 +15,8 @@
       "identity": "119:134",
       "expression": "123:1319",
       "release": "119:246",
-      "agent": "125:2"
+      "agent": "125:2",
+      "execution": "147:30"
     }
   },
   "themeSources": {
@@ -24,7 +25,8 @@
     "typography": "VariableCollectionId:115:34",
     "shape": "VariableCollectionId:116:2",
     "effects": "VariableCollectionId:115:110",
-    "layout": "VariableCollectionId:8:2"
+    "layout": "VariableCollectionId:8:2",
+    "content": "VariableCollectionId:131:1702"
   },
   "validation": {
     "eligibleTypographyNodesAudited": 984,
@@ -52,15 +54,15 @@
     "Vector wordmarks remain authored assets; replace asset masters rather than regenerating logos from typography tokens.",
     "Brand illustration, photography/casting and detailed voice/tone decisions need owner definition or not-applicable decisions.",
     "Packaging and video examples are design studies, not production print or encoded-video deliverables.",
-    "Public adaptation agent is a contract and questionnaire; hosted execution is not deployed.",
+    "Public adaptation skill and starter prompt are experimental; no hosted agent or plugin is required or deployed.",
     "Figma native Specs/Git mirrors require explicit synchronization."
   ],
   "compatibility": {
     "schemaVersionsSeparate": true,
-    "immutableReleaseSnapshot": "pending release freeze; current working alpha",
+    "immutableReleaseSnapshot": "publication snapshot pending",
     "breakingChanges": "migration notes and minor increment before 1.0; major increment after 1.0"
   },
-  "publicEntry": "docs/specs/README.md",
+  "publicEntry": "docs/adaptation-prompt.md",
   "brandExpression": {
     "page": "120:2",
     "patternSets": [
@@ -87,7 +89,7 @@
   "colorArchitectureSpec": "128:2",
   "adaptationDelivery": {
     "format": "public skill",
-    "status": "packaging and duplicate-file acceptance test pending",
+    "status": "public experimental skill and no-install prompt available; complete fresh-copy acceptance pending",
     "pluginRequired": false
   }
 }
