@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "da.component.v1",
+  "id": "da.brand.symbol",
+  "status": "review",
+  "figmaFileKey": "YnhNUlEByax6x6ZY1YQL9e",
+  "nodeId": "40:15",
+  "sourceNodeId": "28:59",
+  "reviewNodeId": "40:24",
+  "name": "Brand/Symbol",
+  "format": "editable vector",
+  "nativeSize": {
+    "width": 111,
+    "height": 111
+  },
+  "ink": "aubergine/800",
+  "roles": {
+    "wordmark": "Primary brand introduction where space permits",
+    "symbol": "Clean compact identification where full wordmark is unsuitable",
+    "favicon": "Separate original notched small-scale asset"
+  },
+  "examples": [
+    "Primary site header with wordmark",
+    "Compact navigation with clean symbol",
+    "Application/profile tile with clean symbol"
+  ],
+  "constraints": [
+    "Preserve original geometry and corner separation",
+    "Scale proportionally",
+    "Minimum reproduction size and clear-space standard not yet validated",
+    "Do not substitute the notched favicon for the clean symbol at larger sizes"
+  ],
+  "accessibility": {
+    "homeLinkName": "DesignA11y home",
+    "decorativeRepetition": "Hide from assistive technology beside equivalent brand text",
+    "informativeImage": "Provide contextual alternative"
+  },
+  "exportFormats": [
+    "SVG",
+    "PNG @2x"
+  ],
+  "validation": {
+    "sourceGeometry": "preserved",
+    "nativeComponent": "verified",
+    "expressionLayout": "visually reviewed",
+    "smallSizeLegibility": "pending"
+  }
+}
