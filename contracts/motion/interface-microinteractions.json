@@ -1,0 +1,283 @@
+{
+  "schemaVersion": "da.motion.microinteractions.v1",
+  "status": "proposed-recipes-runtime-unvalidated",
+  "scope": "Reusable production-interface behavior, including components not deployed on the current site. Motion Lab demonstrates and tests recipes.",
+  "authority": [
+    "Dana Randall's approved decisions",
+    "Full AI A11y Toolkit",
+    "DesignA11y component and motion Specs"
+  ],
+  "selectionGate": [
+    "User benefit and purpose",
+    "Encounter frequency",
+    "Speed and interruption",
+    "Task readability and function",
+    "Sensory impact, control and alternatives"
+  ],
+  "externalReference": {
+    "url": "https://github.com/emilkowalski/skills/blob/main/skills/find-animation-opportunities/SKILL.md",
+    "use": "Evaluation reference, not installed skill; no blanket adoption of its defaults",
+    "reviewDate": "2026-10-18",
+    "adaptations": [
+      "Allow static reduced-motion alternatives; do not require residual animation",
+      "Do not gate useful keyboard feedback solely by input modality; preserve immediate semantics",
+      "Do not introduce hold-to-confirm as a default; provide accessible confirmation and cancellation patterns"
+    ]
+  },
+  "defaults": {
+    "focus": "Static approved triple stroke; never animate focus traversal",
+    "semantics": "Update semantic state immediately; animation never gates focus or activation",
+    "interruption": "Retarget from current state, cancel stale completion and avoid queued repetitions",
+    "reducedMotion": "Remove spatial movement and provide immediate static feedback; opacity-only feedback is optional only when appropriate",
+    "hover": "Fine pointer with hover capability; equal information for keyboard and touch",
+    "evidence": "Recipes are authored proposals unless explicitly approved; no native timeline or runtime implementation claimed"
+  },
+  "recipes": [
+    {
+      "id": "da.motion.card-lift",
+      "status": "approved-design",
+      "component": "Editorial/Card",
+      "trigger": "hover/focus-within where appropriate",
+      "properties": {
+        "translateY": [
+          0,
+          -3
+        ],
+        "durationMs": 140,
+        "easing": "ease-out",
+        "shadow": "approved Card lift effect"
+      },
+      "alternative": "No transform for reduced motion or coarse pointer; static border/shadow feedback",
+      "reset": "Return on exit; no autonomous loop",
+      "nativeStudyNodeId": "67:94"
+    },
+    {
+      "id": "da.motion.action-feedback",
+      "status": "proposal",
+      "component": "Actions/Button",
+      "trigger": "hover/press",
+      "properties": {
+        "colorDurationMs": 120,
+        "easing": "ease-out",
+        "spatialMovement": false
+      },
+      "alternative": "Immediate fill/border change",
+      "reset": "Retarget immediately on release/exit; no action delay"
+    },
+    {
+      "id": "da.motion.selection-change",
+      "status": "proposal",
+      "component": "Forms/Checkbox, Forms/Radio",
+      "trigger": "selection",
+      "properties": {
+        "indicatorOpacityDurationMs": 100,
+        "easing": "ease-out",
+        "spatialMovement": false
+      },
+      "alternative": "Immediate mark and semantic state",
+      "reset": "Rapid toggles retarget; mixed state remains distinguishable",
+      "nativeStudyNodeId": "67:133"
+    },
+    {
+      "id": "da.motion.switch-change",
+      "status": "proposal",
+      "component": "Forms/Switch",
+      "trigger": "toggle",
+      "properties": {
+        "thumbTravelPx": 16,
+        "durationMs": 140,
+        "easing": "ease-out",
+        "overshoot": false
+      },
+      "alternative": "Immediate thumb position and track state",
+      "reset": "Reverse from current thumb position; aria-checked updates immediately",
+      "nativeStudyNodeId": "67:116"
+    },
+    {
+      "id": "da.motion.disclosure",
+      "status": "proposal",
+      "component": "Accordion, Disclosure",
+      "trigger": "expand/collapse",
+      "properties": {
+        "durationMs": 160,
+        "easing": "ease-out",
+        "height": "measured content",
+        "rotationDeg": 90
+      },
+      "alternative": "Immediate open/close; no spatial transition",
+      "reset": "Retarget measured height; focus and hidden content follow semantic open state"
+    },
+    {
+      "id": "da.motion.feedback-reveal",
+      "status": "proposal",
+      "component": "Inline validation, Status",
+      "trigger": "validation/completion",
+      "properties": {
+        "opacityDurationMs": 120,
+        "easing": "ease-out",
+        "spatialMovement": false
+      },
+      "alternative": "Immediate message",
+      "reset": "No shake or repeated pulse; live-region timing is separate",
+      "nativeStudyNodeId": "67:146"
+    },
+    {
+      "id": "da.motion.overlay",
+      "status": "proposal",
+      "component": "Dialog, Popover",
+      "trigger": "open/close",
+      "properties": {
+        "opacityDurationMs": 140,
+        "easing": "ease-out",
+        "spatialMovement": false
+      },
+      "alternative": "Immediate appearance",
+      "reset": "Cancel exit on reopen; focus management must not wait for animation"
+    },
+    {
+      "id": "da.motion.loading",
+      "status": "proposal",
+      "component": "Actions/Button, Progress",
+      "trigger": "pending operation",
+      "properties": {
+        "default": "Static progress label; determinate progress if known",
+        "optionalLoop": "Requires separately specified controllable indicator and nonmotion alternative"
+      },
+      "alternative": "Static loading label/status",
+      "reset": "Stop on completion/error/cancel; no layout shift; preserve label context"
+    }
+  ],
+  "nativeStudies": {
+    "nodeId": "67:89",
+    "status": "native-keyframe-authored; no production trigger or preference implementation",
+    "studies": [
+      {
+        "nodeId": "67:94",
+        "field": "TRANSLATION_Y",
+        "keyframes": [
+          [
+            0,
+            0
+          ],
+          [
+            0.3,
+            0
+          ],
+          [
+            0.44,
+            -3
+          ],
+          [
+            0.9,
+            -3
+          ],
+          [
+            1.04,
+            0
+          ]
+        ]
+      },
+      {
+        "nodeId": "67:116",
+        "field": "TRANSLATION_X",
+        "keyframes": [
+          [
+            0,
+            0
+          ],
+          [
+            0.3,
+            0
+          ],
+          [
+            0.44,
+            16
+          ],
+          [
+            0.9,
+            16
+          ],
+          [
+            1.04,
+            0
+          ]
+        ]
+      },
+      {
+        "nodeId": "67:133",
+        "field": "OPACITY",
+        "keyframes": [
+          [
+            0,
+            0
+          ],
+          [
+            0.3,
+            0
+          ],
+          [
+            0.4,
+            1
+          ],
+          [
+            0.9,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      {
+        "nodeId": "67:146",
+        "field": "OPACITY",
+        "keyframes": [
+          [
+            0,
+            0
+          ],
+          [
+            0.3,
+            0
+          ],
+          [
+            0.42,
+            1
+          ],
+          [
+            1.2,
+            1
+          ]
+        ]
+      }
+    ],
+    "videoExportVerified": false
+  },
+  "metricTokens": [
+    {
+      "id": "VariableID:71:5",
+      "name": "motion/feedback-duration-ms",
+      "value": 120,
+      "unit": "ms"
+    },
+    {
+      "id": "VariableID:71:6",
+      "name": "motion/selection-duration-ms",
+      "value": 100,
+      "unit": "ms"
+    },
+    {
+      "id": "VariableID:71:7",
+      "name": "motion/disclosure-duration-ms",
+      "value": 160,
+      "unit": "ms"
+    },
+    {
+      "id": "VariableID:71:8",
+      "name": "motion/overlay-duration-ms",
+      "value": 140,
+      "unit": "ms"
+    }
+  ]
+}
