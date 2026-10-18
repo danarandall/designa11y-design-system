@@ -1,0 +1,4 @@
+interface:
+  display_name: "DesignA11y Brand Adaptation"
+  short_description: "Adapt a copied DesignA11y system to your brand"
+  default_prompt: "Use $designa11y-adapt-brand to guide my brand choices and adapt my copied Figma system."
