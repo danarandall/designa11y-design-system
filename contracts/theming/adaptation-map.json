@@ -1,7 +1,7 @@
 {
   "schemaVersion": "da.adaptation-remediation.v1",
   "systemVersion": "0.1.0-alpha.1",
-  "revision": "nightjar-qa-remediation-1",
+  "revision": "partial-test-refinement-2",
   "status": "master-fixes-implemented-fresh-copy-regression-pending",
   "sourceFileKey": "YnhNUlEByax6x6ZY1YQL9e",
   "idPolicy": "Source IDs are audit references. Discover destination collections, variables, styles and component masters by exact names and resolve duplicates; never assume copied IDs.",
@@ -508,6 +508,911 @@
         "id": "VariableID:134:3961",
         "name": "content/brand-supporting-copy/121-1780",
         "source": "Explore inclusive design and AI.\ndesign-a11y.com"
+      },
+      {
+        "id": "VariableID:146:164",
+        "name": "footer/brand-statement/91-173",
+        "source": "Ideas, tools, and practice\nfor a more inclusive world."
+      },
+      {
+        "id": "VariableID:146:165",
+        "name": "footer/explore/91-175",
+        "source": "EXPLORE"
+      },
+      {
+        "id": "VariableID:146:166",
+        "name": "footer/footer-link/91-176",
+        "source": "Articles"
+      },
+      {
+        "id": "VariableID:146:167",
+        "name": "footer/footer-link/91-178",
+        "source": "Resources"
+      },
+      {
+        "id": "VariableID:146:168",
+        "name": "footer/connect/91-180",
+        "source": "CONNECT"
+      },
+      {
+        "id": "VariableID:146:169",
+        "name": "footer/footer-link/91-181",
+        "source": "Contact"
+      },
+      {
+        "id": "VariableID:146:170",
+        "name": "footer/footer-link/91-182",
+        "source": "Accessibility statement"
+      },
+      {
+        "id": "VariableID:146:171",
+        "name": "footer/footer-link/91-183",
+        "source": "About Dana Randall"
+      }
+    ],
+    "bindingArchitecture": {
+      "configurableText": "STRING variable → component TEXT property defaultValue → text characters componentPropertyReference → instance-specific property value",
+      "nonConfigurableText": "Direct characters binding only where no configurable component text property is intended.",
+      "safeguard": "Never replace a text-property reference with direct characters binding."
+    },
+    "propertyRoutes": [
+      {
+        "nodeId": "61:6",
+        "ownerId": "61:33",
+        "key": "Category#61:0",
+        "variable": "VariableID:131:3930"
+      },
+      {
+        "nodeId": "61:7",
+        "ownerId": "61:33",
+        "key": "Title#61:5",
+        "variable": "VariableID:131:3931"
+      },
+      {
+        "nodeId": "61:8",
+        "ownerId": "61:33",
+        "key": "Summary#61:10",
+        "variable": "VariableID:131:3932"
+      },
+      {
+        "nodeId": "61:9",
+        "ownerId": "61:33",
+        "key": "Metadata#61:15",
+        "variable": "VariableID:131:3933"
+      },
+      {
+        "nodeId": "61:13",
+        "ownerId": "61:33",
+        "key": "Category#61:0",
+        "variable": "VariableID:131:3930"
+      },
+      {
+        "nodeId": "61:14",
+        "ownerId": "61:33",
+        "key": "Title#61:5",
+        "variable": "VariableID:131:3931"
+      },
+      {
+        "nodeId": "61:15",
+        "ownerId": "61:33",
+        "key": "Summary#61:10",
+        "variable": "VariableID:131:3932"
+      },
+      {
+        "nodeId": "61:16",
+        "ownerId": "61:33",
+        "key": "Metadata#61:15",
+        "variable": "VariableID:131:3933"
+      },
+      {
+        "nodeId": "61:20",
+        "ownerId": "61:33",
+        "key": "Category#61:0",
+        "variable": "VariableID:131:3930"
+      },
+      {
+        "nodeId": "61:21",
+        "ownerId": "61:33",
+        "key": "Title#61:5",
+        "variable": "VariableID:131:3931"
+      },
+      {
+        "nodeId": "61:22",
+        "ownerId": "61:33",
+        "key": "Summary#61:10",
+        "variable": "VariableID:131:3932"
+      },
+      {
+        "nodeId": "61:23",
+        "ownerId": "61:33",
+        "key": "Metadata#61:15",
+        "variable": "VariableID:131:3933"
+      },
+      {
+        "nodeId": "61:29",
+        "ownerId": "61:33",
+        "key": "Category#61:0",
+        "variable": "VariableID:131:3930"
+      },
+      {
+        "nodeId": "61:30",
+        "ownerId": "61:33",
+        "key": "Title#61:5",
+        "variable": "VariableID:131:3931"
+      },
+      {
+        "nodeId": "61:31",
+        "ownerId": "61:33",
+        "key": "Summary#61:10",
+        "variable": "VariableID:131:3932"
+      },
+      {
+        "nodeId": "61:32",
+        "ownerId": "61:33",
+        "key": "Metadata#61:15",
+        "variable": "VariableID:131:3933"
+      },
+      {
+        "nodeId": "61:35",
+        "ownerId": "61:62",
+        "key": "Type#61:20",
+        "variable": "VariableID:131:3934"
+      },
+      {
+        "nodeId": "61:36",
+        "ownerId": "61:62",
+        "key": "Title#61:25",
+        "variable": "VariableID:131:3935"
+      },
+      {
+        "nodeId": "61:37",
+        "ownerId": "61:62",
+        "key": "Summary#61:30",
+        "variable": "VariableID:131:3936"
+      },
+      {
+        "nodeId": "61:41",
+        "ownerId": "61:62",
+        "key": "Type#61:20",
+        "variable": "VariableID:131:3934"
+      },
+      {
+        "nodeId": "61:42",
+        "ownerId": "61:62",
+        "key": "Title#61:25",
+        "variable": "VariableID:131:3935"
+      },
+      {
+        "nodeId": "61:43",
+        "ownerId": "61:62",
+        "key": "Summary#61:30",
+        "variable": "VariableID:131:3936"
+      },
+      {
+        "nodeId": "61:47",
+        "ownerId": "61:62",
+        "key": "Type#61:20",
+        "variable": "VariableID:131:3934"
+      },
+      {
+        "nodeId": "61:48",
+        "ownerId": "61:62",
+        "key": "Title#61:25",
+        "variable": "VariableID:131:3935"
+      },
+      {
+        "nodeId": "61:49",
+        "ownerId": "61:62",
+        "key": "Summary#61:30",
+        "variable": "VariableID:131:3936"
+      },
+      {
+        "nodeId": "61:57",
+        "ownerId": "61:62",
+        "key": "Type#61:20",
+        "variable": "VariableID:131:3934"
+      },
+      {
+        "nodeId": "61:58",
+        "ownerId": "61:62",
+        "key": "Title#61:25",
+        "variable": "VariableID:131:3935"
+      },
+      {
+        "nodeId": "61:59",
+        "ownerId": "61:62",
+        "key": "Summary#61:30",
+        "variable": "VariableID:131:3936"
+      },
+      {
+        "nodeId": "61:66",
+        "ownerId": "61:79",
+        "key": "Label#61:35",
+        "variable": "VariableID:131:3939"
+      },
+      {
+        "nodeId": "61:67",
+        "ownerId": "61:79",
+        "key": "Title#61:38",
+        "variable": "VariableID:131:3940"
+      },
+      {
+        "nodeId": "61:68",
+        "ownerId": "61:79",
+        "key": "Summary#61:41",
+        "variable": "VariableID:131:3941"
+      },
+      {
+        "nodeId": "61:74",
+        "ownerId": "61:79",
+        "key": "Label#61:35",
+        "variable": "VariableID:131:3939"
+      },
+      {
+        "nodeId": "61:75",
+        "ownerId": "61:79",
+        "key": "Title#61:38",
+        "variable": "VariableID:131:3940"
+      },
+      {
+        "nodeId": "61:76",
+        "ownerId": "61:79",
+        "key": "Summary#61:41",
+        "variable": "VariableID:131:3941"
+      },
+      {
+        "nodeId": "61:81",
+        "ownerId": "61:87",
+        "key": "Name#61:44",
+        "variable": "VariableID:131:3943"
+      },
+      {
+        "nodeId": "61:82",
+        "ownerId": "61:87",
+        "key": "Role#61:47",
+        "variable": "VariableID:131:3944"
+      },
+      {
+        "nodeId": "61:84",
+        "ownerId": "61:87",
+        "key": "Name#61:44",
+        "variable": "VariableID:131:3943"
+      },
+      {
+        "nodeId": "61:85",
+        "ownerId": "61:87",
+        "key": "Role#61:47",
+        "variable": "VariableID:131:3944"
+      },
+      {
+        "nodeId": "61:86",
+        "ownerId": "61:87",
+        "key": "Biography#61:50",
+        "variable": "VariableID:131:3945"
+      },
+      {
+        "nodeId": "61:89",
+        "ownerId": "61:92",
+        "key": "Metadata#61:53",
+        "variable": "VariableID:131:3946"
+      },
+      {
+        "nodeId": "61:91",
+        "ownerId": "61:92",
+        "key": "Metadata#61:53",
+        "variable": "VariableID:131:3946"
+      },
+      {
+        "nodeId": "61:95",
+        "ownerId": "61:118",
+        "key": "Label#61:56",
+        "variable": "VariableID:131:3947"
+      },
+      {
+        "nodeId": "61:100",
+        "ownerId": "61:118",
+        "key": "Label#61:56",
+        "variable": "VariableID:131:3947"
+      },
+      {
+        "nodeId": "61:103",
+        "ownerId": "61:118",
+        "key": "Content#61:61",
+        "variable": "VariableID:131:3948"
+      },
+      {
+        "nodeId": "61:106",
+        "ownerId": "61:118",
+        "key": "Label#61:56",
+        "variable": "VariableID:131:3947"
+      },
+      {
+        "nodeId": "61:115",
+        "ownerId": "61:118",
+        "key": "Label#61:56",
+        "variable": "VariableID:131:3947"
+      },
+      {
+        "nodeId": "61:120",
+        "ownerId": "61:136",
+        "key": "Title#61:66",
+        "variable": "VariableID:131:3949"
+      },
+      {
+        "nodeId": "61:121",
+        "ownerId": "61:136",
+        "key": "Description#61:71",
+        "variable": "VariableID:131:3950"
+      },
+      {
+        "nodeId": "61:123",
+        "ownerId": "61:136",
+        "key": "Title#61:66",
+        "variable": "VariableID:131:3949"
+      },
+      {
+        "nodeId": "61:124",
+        "ownerId": "61:136",
+        "key": "Description#61:71",
+        "variable": "VariableID:131:3950"
+      },
+      {
+        "nodeId": "61:126",
+        "ownerId": "61:136",
+        "key": "Title#61:66",
+        "variable": "VariableID:131:3949"
+      },
+      {
+        "nodeId": "61:127",
+        "ownerId": "61:136",
+        "key": "Description#61:71",
+        "variable": "VariableID:131:3950"
+      },
+      {
+        "nodeId": "61:133",
+        "ownerId": "61:136",
+        "key": "Title#61:66",
+        "variable": "VariableID:131:3949"
+      },
+      {
+        "nodeId": "61:134",
+        "ownerId": "61:136",
+        "key": "Description#61:71",
+        "variable": "VariableID:131:3950"
+      },
+      {
+        "nodeId": "61:138",
+        "ownerId": "61:143",
+        "key": "Quote#61:76",
+        "variable": "VariableID:131:3952"
+      },
+      {
+        "nodeId": "61:139",
+        "ownerId": "61:143",
+        "key": "Attribution#61:79",
+        "variable": "VariableID:131:3953"
+      },
+      {
+        "nodeId": "61:141",
+        "ownerId": "61:143",
+        "key": "Quote#61:76",
+        "variable": "VariableID:131:3952"
+      },
+      {
+        "nodeId": "61:142",
+        "ownerId": "61:143",
+        "key": "Attribution#61:79",
+        "variable": "VariableID:131:3953"
+      },
+      {
+        "nodeId": "61:145",
+        "ownerId": "61:164",
+        "key": "Plan name#61:82",
+        "variable": "VariableID:131:3954"
+      },
+      {
+        "nodeId": "61:146",
+        "ownerId": "61:164",
+        "key": "Price#61:86",
+        "variable": "VariableID:131:3955"
+      },
+      {
+        "nodeId": "61:147",
+        "ownerId": "61:164",
+        "key": "Terms#61:90",
+        "variable": "VariableID:131:3956"
+      },
+      {
+        "nodeId": "61:148",
+        "ownerId": "61:164",
+        "key": "Features#61:94",
+        "variable": "VariableID:131:3957"
+      },
+      {
+        "nodeId": "61:152",
+        "ownerId": "61:164",
+        "key": "Plan name#61:82",
+        "variable": "VariableID:131:3954"
+      },
+      {
+        "nodeId": "61:153",
+        "ownerId": "61:164",
+        "key": "Price#61:86",
+        "variable": "VariableID:131:3955"
+      },
+      {
+        "nodeId": "61:154",
+        "ownerId": "61:164",
+        "key": "Terms#61:90",
+        "variable": "VariableID:131:3956"
+      },
+      {
+        "nodeId": "61:155",
+        "ownerId": "61:164",
+        "key": "Features#61:94",
+        "variable": "VariableID:131:3957"
+      },
+      {
+        "nodeId": "61:159",
+        "ownerId": "61:164",
+        "key": "Plan name#61:82",
+        "variable": "VariableID:131:3954"
+      },
+      {
+        "nodeId": "61:160",
+        "ownerId": "61:164",
+        "key": "Price#61:86",
+        "variable": "VariableID:131:3955"
+      },
+      {
+        "nodeId": "61:161",
+        "ownerId": "61:164",
+        "key": "Terms#61:90",
+        "variable": "VariableID:131:3956"
+      },
+      {
+        "nodeId": "61:162",
+        "ownerId": "61:164",
+        "key": "Features#61:94",
+        "variable": "VariableID:131:3957"
+      },
+      {
+        "nodeId": "61:166",
+        "ownerId": "61:172",
+        "key": "Rating#61:98",
+        "variable": "VariableID:131:3960"
+      },
+      {
+        "nodeId": "61:167",
+        "ownerId": "61:172",
+        "key": "Review#61:101",
+        "variable": "VariableID:131:3961"
+      },
+      {
+        "nodeId": "61:169",
+        "ownerId": "61:172",
+        "key": "Rating#61:98",
+        "variable": "VariableID:131:3960"
+      },
+      {
+        "nodeId": "61:170",
+        "ownerId": "61:172",
+        "key": "Review#61:101",
+        "variable": "VariableID:131:3961"
+      },
+      {
+        "nodeId": "61:171",
+        "ownerId": "61:172",
+        "key": "Attribution#61:104",
+        "variable": "VariableID:131:3962"
+      },
+      {
+        "nodeId": "61:174",
+        "ownerId": "61:183",
+        "key": "Heading#61:107",
+        "variable": "VariableID:131:3963"
+      },
+      {
+        "nodeId": "61:175",
+        "ownerId": "61:183",
+        "key": "Body#61:110",
+        "variable": "VariableID:131:3964"
+      },
+      {
+        "nodeId": "61:177",
+        "ownerId": "61:183",
+        "key": "Callout#61:113",
+        "variable": "VariableID:131:3965"
+      },
+      {
+        "nodeId": "61:179",
+        "ownerId": "61:183",
+        "key": "Heading#61:107",
+        "variable": "VariableID:131:3963"
+      },
+      {
+        "nodeId": "61:180",
+        "ownerId": "61:183",
+        "key": "Body#61:110",
+        "variable": "VariableID:131:3964"
+      },
+      {
+        "nodeId": "61:182",
+        "ownerId": "61:183",
+        "key": "Callout#61:113",
+        "variable": "VariableID:131:3965"
+      },
+      {
+        "nodeId": "68:32",
+        "ownerId": "68:110",
+        "key": "Headline#68:0",
+        "variable": "VariableID:131:3940"
+      },
+      {
+        "nodeId": "68:33",
+        "ownerId": "68:110",
+        "key": "Introduction#68:3",
+        "variable": "VariableID:131:3966"
+      },
+      {
+        "nodeId": "68:86",
+        "ownerId": "68:110",
+        "key": "Headline#68:0",
+        "variable": "VariableID:131:3940"
+      },
+      {
+        "nodeId": "68:87",
+        "ownerId": "68:110",
+        "key": "Introduction#68:3",
+        "variable": "VariableID:131:3966"
+      },
+      {
+        "nodeId": "68:112",
+        "ownerId": "68:149",
+        "key": "Title#68:6",
+        "variable": "VariableID:131:3970"
+      },
+      {
+        "nodeId": "68:131",
+        "ownerId": "68:149",
+        "key": "Title#68:6",
+        "variable": "VariableID:131:3970"
+      },
+      {
+        "nodeId": "68:151",
+        "ownerId": "68:184",
+        "key": "Title#68:9",
+        "variable": "VariableID:131:3935"
+      },
+      {
+        "nodeId": "68:152",
+        "ownerId": "68:184",
+        "key": "Introduction#68:12",
+        "variable": "VariableID:131:3972"
+      },
+      {
+        "nodeId": "68:168",
+        "ownerId": "68:184",
+        "key": "Title#68:9",
+        "variable": "VariableID:131:3935"
+      },
+      {
+        "nodeId": "68:169",
+        "ownerId": "68:184",
+        "key": "Introduction#68:12",
+        "variable": "VariableID:131:3972"
+      },
+      {
+        "nodeId": "87:11",
+        "ownerId": "87:25",
+        "key": "Eyebrow#87:0",
+        "variable": "VariableID:131:3987"
+      },
+      {
+        "nodeId": "87:12",
+        "ownerId": "87:25",
+        "key": "Title#87:3",
+        "variable": "VariableID:131:3988"
+      },
+      {
+        "nodeId": "87:13",
+        "ownerId": "87:25",
+        "key": "Deck#87:6",
+        "variable": "VariableID:131:3989"
+      },
+      {
+        "nodeId": "87:19",
+        "ownerId": "87:25",
+        "key": "Eyebrow#87:0",
+        "variable": "VariableID:131:3987"
+      },
+      {
+        "nodeId": "87:20",
+        "ownerId": "87:25",
+        "key": "Title#87:3",
+        "variable": "VariableID:131:3988"
+      },
+      {
+        "nodeId": "87:21",
+        "ownerId": "87:25",
+        "key": "Deck#87:6",
+        "variable": "VariableID:131:3989"
+      },
+      {
+        "nodeId": "87:79",
+        "ownerId": "87:173",
+        "key": "Kind#87:21",
+        "variable": "VariableID:131:4000"
+      },
+      {
+        "nodeId": "87:88",
+        "ownerId": "87:173",
+        "key": "Title#87:28",
+        "variable": "VariableID:131:4001"
+      },
+      {
+        "nodeId": "87:90",
+        "ownerId": "87:173",
+        "key": "Description#87:35",
+        "variable": "VariableID:131:4002"
+      },
+      {
+        "nodeId": "87:94",
+        "ownerId": "87:173",
+        "key": "Kind#87:21",
+        "variable": "VariableID:131:4000"
+      },
+      {
+        "nodeId": "87:103",
+        "ownerId": "87:173",
+        "key": "Title#87:28",
+        "variable": "VariableID:131:4001"
+      },
+      {
+        "nodeId": "87:105",
+        "ownerId": "87:173",
+        "key": "Description#87:35",
+        "variable": "VariableID:131:4002"
+      },
+      {
+        "nodeId": "87:110",
+        "ownerId": "87:173",
+        "key": "Kind#87:21",
+        "variable": "VariableID:131:4000"
+      },
+      {
+        "nodeId": "87:119",
+        "ownerId": "87:173",
+        "key": "Title#87:28",
+        "variable": "VariableID:131:4001"
+      },
+      {
+        "nodeId": "87:121",
+        "ownerId": "87:173",
+        "key": "Description#87:35",
+        "variable": "VariableID:131:4002"
+      },
+      {
+        "nodeId": "87:125",
+        "ownerId": "87:173",
+        "key": "Kind#87:21",
+        "variable": "VariableID:131:4000"
+      },
+      {
+        "nodeId": "87:134",
+        "ownerId": "87:173",
+        "key": "Title#87:28",
+        "variable": "VariableID:131:4001"
+      },
+      {
+        "nodeId": "87:136",
+        "ownerId": "87:173",
+        "key": "Description#87:35",
+        "variable": "VariableID:131:4002"
+      },
+      {
+        "nodeId": "87:141",
+        "ownerId": "87:173",
+        "key": "Kind#87:21",
+        "variable": "VariableID:131:4000"
+      },
+      {
+        "nodeId": "87:150",
+        "ownerId": "87:173",
+        "key": "Title#87:28",
+        "variable": "VariableID:131:4001"
+      },
+      {
+        "nodeId": "87:152",
+        "ownerId": "87:173",
+        "key": "Description#87:35",
+        "variable": "VariableID:131:4002"
+      },
+      {
+        "nodeId": "87:157",
+        "ownerId": "87:173",
+        "key": "Kind#87:21",
+        "variable": "VariableID:131:4000"
+      },
+      {
+        "nodeId": "87:166",
+        "ownerId": "87:173",
+        "key": "Title#87:28",
+        "variable": "VariableID:131:4001"
+      },
+      {
+        "nodeId": "87:168",
+        "ownerId": "87:173",
+        "key": "Description#87:35",
+        "variable": "VariableID:131:4002"
+      },
+      {
+        "nodeId": "87:179",
+        "ownerId": "87:214",
+        "key": "Kind#87:42",
+        "variable": "VariableID:131:4005"
+      },
+      {
+        "nodeId": "87:180",
+        "ownerId": "87:214",
+        "key": "Title#87:47",
+        "variable": "VariableID:131:4006"
+      },
+      {
+        "nodeId": "87:181",
+        "ownerId": "87:214",
+        "key": "Description#87:52",
+        "variable": "VariableID:131:4007"
+      },
+      {
+        "nodeId": "87:182",
+        "ownerId": "87:214",
+        "key": "Credit#87:57",
+        "variable": "VariableID:131:4008"
+      },
+      {
+        "nodeId": "87:188",
+        "ownerId": "87:214",
+        "key": "Kind#87:42",
+        "variable": "VariableID:131:4005"
+      },
+      {
+        "nodeId": "87:189",
+        "ownerId": "87:214",
+        "key": "Title#87:47",
+        "variable": "VariableID:131:4006"
+      },
+      {
+        "nodeId": "87:190",
+        "ownerId": "87:214",
+        "key": "Description#87:52",
+        "variable": "VariableID:131:4007"
+      },
+      {
+        "nodeId": "87:191",
+        "ownerId": "87:214",
+        "key": "Credit#87:57",
+        "variable": "VariableID:131:4008"
+      },
+      {
+        "nodeId": "87:197",
+        "ownerId": "87:214",
+        "key": "Kind#87:42",
+        "variable": "VariableID:131:4005"
+      },
+      {
+        "nodeId": "87:198",
+        "ownerId": "87:214",
+        "key": "Title#87:47",
+        "variable": "VariableID:131:4006"
+      },
+      {
+        "nodeId": "87:199",
+        "ownerId": "87:214",
+        "key": "Description#87:52",
+        "variable": "VariableID:131:4007"
+      },
+      {
+        "nodeId": "87:200",
+        "ownerId": "87:214",
+        "key": "Credit#87:57",
+        "variable": "VariableID:131:4008"
+      },
+      {
+        "nodeId": "87:210",
+        "ownerId": "87:214",
+        "key": "Kind#87:42",
+        "variable": "VariableID:131:4005"
+      },
+      {
+        "nodeId": "87:211",
+        "ownerId": "87:214",
+        "key": "Title#87:47",
+        "variable": "VariableID:131:4006"
+      },
+      {
+        "nodeId": "87:212",
+        "ownerId": "87:214",
+        "key": "Description#87:52",
+        "variable": "VariableID:131:4007"
+      },
+      {
+        "nodeId": "87:213",
+        "ownerId": "87:214",
+        "key": "Credit#87:57",
+        "variable": "VariableID:131:4008"
+      },
+      {
+        "nodeId": "88:42",
+        "ownerId": "88:48",
+        "key": "Caption#88:0",
+        "variable": "VariableID:131:4011"
+      },
+      {
+        "nodeId": "88:47",
+        "ownerId": "88:48",
+        "key": "Caption#88:0",
+        "variable": "VariableID:131:4011"
+      },
+      {
+        "nodeId": "88:52",
+        "ownerId": "88:195",
+        "key": "Heading#88:3",
+        "variable": "VariableID:131:3994"
+      },
+      {
+        "nodeId": "88:89",
+        "ownerId": "88:195",
+        "key": "Heading#88:3",
+        "variable": "VariableID:131:3994"
+      },
+      {
+        "nodeId": "88:125",
+        "ownerId": "88:195",
+        "key": "Heading#88:3",
+        "variable": "VariableID:131:3994"
+      },
+      {
+        "nodeId": "88:162",
+        "ownerId": "88:195",
+        "key": "Heading#88:3",
+        "variable": "VariableID:131:3994"
+      },
+      {
+        "nodeId": "88:198",
+        "ownerId": "88:280",
+        "key": "Title#88:8",
+        "variable": "VariableID:131:4013"
+      },
+      {
+        "nodeId": "88:199",
+        "ownerId": "88:280",
+        "key": "Introduction#88:11",
+        "variable": "VariableID:131:4014"
+      },
+      {
+        "nodeId": "88:238",
+        "ownerId": "88:280",
+        "key": "Verification note#88:14",
+        "variable": "VariableID:131:4015"
+      },
+      {
+        "nodeId": "88:241",
+        "ownerId": "88:280",
+        "key": "Title#88:8",
+        "variable": "VariableID:131:4013"
+      },
+      {
+        "nodeId": "88:242",
+        "ownerId": "88:280",
+        "key": "Introduction#88:11",
+        "variable": "VariableID:131:4014"
+      },
+      {
+        "nodeId": "88:279",
+        "ownerId": "88:280",
+        "key": "Verification note#88:14",
+        "variable": "VariableID:131:4015"
       }
     ]
   },
@@ -628,5 +1533,22 @@
     "nativeRegressionSpec": "134:36",
     "wholeLibraryPass": false,
     "freshDuplicatePass": false
+  },
+  "validationRefinement": {
+    "restoredTextLayers": 143,
+    "componentSets": 20,
+    "propertyNamesAndVariantCountsUnchanged": true,
+    "distinctInstanceTest": {
+      "frame": "147:49",
+      "passed": true
+    },
+    "footerHugRepair": {
+      "desktopHeight": 187,
+      "stackedHeight": 496.6,
+      "wholeResponsivePass": false
+    },
+    "nativeExecutionSpec": "147:30",
+    "research": "Use approved inputs; verify only a specific missing fact, then resume independent changes.",
+    "testStatus": "Incomplete test; full fresh-copy regression pending"
   }
 }
