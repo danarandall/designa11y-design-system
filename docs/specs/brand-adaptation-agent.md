@@ -1,6 +1,6 @@
 # DesignA11y adaptation agent / Figma-first workflow
 
-System version: **0.1.0-alpha.1**. The public agent is being designed; this contract does not claim an already deployed hosted tool.
+System version: **0.1.0-beta.1 · Public beta**. The [experimental adaptation skill](../../skills/designa11y-adapt-brand) and [standalone starter prompt](../adaptation-prompt.md) are available. This contract describes the guided workflow; it does not claim an autonomous hosted service or complete alternate-brand inheritance.
 
 Guide a brand owner through context, identity and cross-channel expression, then apply approved choices centrally to a copy of the Figma system while retaining accessibility requirements.
 
@@ -32,6 +32,19 @@ Identity Spec: 119:134. Cross-channel expression Spec: 123:1319. Release and evi
 Mission, audiences, point of view, content context and channels come first. Every identity category records decisions, source, owner, rationale, examples, exclusions and approved/proposed/pending/not-applicable status. Applicable channels add pattern/background grammar, composition and production/accessibility requirements. Do not silently promote an inferred suggestion to an approved decision.
 
 Apply central variable/style/asset changes to a copy and preserve component connections. Changing a font does not redraw a wordmark; changing palette tokens does not recolor an embedded raster photograph. Record manual creative tasks. The agent must not force sensory surfaces or copied reference artwork into an unrelated identity.
+
+## Reference-theme campaign imagery
+
+For DesignA11y social and campaign images, use the brand symbol as a window or image mask, with deliberate negative space. Retire the repeated “frame echo” pattern as a campaign expression.
+
+Two approved creative directions are:
+
+- **Human window:** a person looks through or holds the symbol like a window. The image lives inside the window, with a selective part of the subject extending beyond the open corner.
+- **Window with spill:** imagery lives inside the symbol, while a restrained group of particles or image-related elements sprinkles out through its open corner.
+
+Preserve the actual symbol geometry and its open corner. Keep the window legible, the spill intentional and the surrounding composition spacious. These are campaign treatments, not default interface decoration or replacements for the wordmark. Figma campaign samples are creative references requiring refinement and review, not evidence of finished production artwork.
+
+During adaptation, replace this reference-theme expression with the new brand's approved symbol and image grammar, or mark it not applicable. Do not carry DesignA11y artwork into another identity or force an unsuitable logo into a window. Record imagery, masking and compositing work separately from token changes. Provide appropriate text alternatives for meaningful imagery; keep essential copy outside image-only treatments and revalidate contrast at each intended crop.
 
 ## Accessibility and reporting
 
